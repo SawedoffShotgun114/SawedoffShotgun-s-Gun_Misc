@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- # FGC-9 MKII Mini ========================================== -->
+<!-- # Note: Crazy cheap and WorkToMake:Autopistol's 0.56 . And so flexible ========================================== -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>SS_Gun_FGC-9MKIIMini</defName>
+		<label>FGC-9 MKII Mini</label>
+		<description>A physible, 3D-printable, semiautomatic pistol caliber carbine.\n\nIt famous for super easy to make. And it lacks stopping power and range, but is quick to fire.</description>
+		<graphicData>
+		  <texPath>Things/Weapons/Tex_FGC-9MKIIMini</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.5</uiIconScale>
+		<soundInteract>Interact_Autopistol</soundInteract>
+	    <!-- ========================================== -->
+		<recipeMaker>
+		  <researchPrerequisite>Machining</researchPrerequisite>
+		  <skillRequirements>
+			<Crafting>2</Crafting>
+		  </skillRequirements>
+		  <displayPriority>810</displayPriority> <!-- After all, just an early-game makeshift (usually 4xx)-->
+		</recipeMaker>
+		<!-- ========================================== -->
+		<weaponTags>
+		  <li>SimpleGun</li>
+		  <li>Autopistol</li>
+		</weaponTags>
+		<weaponClasses>
+		  <li>RangedLight</li>
+		</weaponClasses>
+		<!-- ========================================== -->
+		<statBases>
+		  <WorkToMake>2800</WorkToMake>
+		  <Mass>1</Mass>
+		  <AccuracyTouch>0.72</AccuracyTouch>
+		  <AccuracyShort>0.52</AccuracyShort>
+		  <AccuracyMedium>0.28</AccuracyMedium>
+		  <AccuracyLong>0.12</AccuracyLong>
+		  <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
+		</statBases>
+		<!-- ========================================== -->
+		<costList>
+		  <Steel>30</Steel>
+		  <ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<!-- ========================================== -->
+		<verbs>
+		  <li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>SS_Vanilla_Bullet_9x19mmPara_FMJ</defaultProjectile>
+			<warmupTime>0.3</warmupTime>
+			<range>18</range>
+			<soundCast>Shot_Autopistol</soundCast>
+			<soundCastTail>GunTail_Light</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		  </li>
+		</verbs>
+		<!-- ========================================== -->
+		<tools>
+		  <li>
+			<label>grip</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		  </li>
+		  <li>
+			<label>barrel</label>
+			<capacities>
+			  <li>Blunt</li>
+			  <li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		  </li>
+		</tools>
+    </ThingDef>
+
+</Defs>

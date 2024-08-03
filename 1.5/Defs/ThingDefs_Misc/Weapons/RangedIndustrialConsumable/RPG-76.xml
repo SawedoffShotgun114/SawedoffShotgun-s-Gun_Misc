@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- RPG-76 ========================================== -->
+    <!-- # Note: Anti-LightArmor(Centipede(IFV-like)),150armorpenetration, 300damage→2 shot 1 centipede, but not so efficient in anti-personnel task(only 0.8 explode radius). single-use ========================================== -->
+    <!-- Reference: Effective firing range250m,	68 mm, 1.7 kg rocket, 260 mm of penetration -->
+    <ThingDef ParentName="BaseGun">
+    <defName>SS_Weapon_RPG-76_Launcher</defName>
+    <label>RPG-76 Komar</label>
+    <description>A single-use rocket launcher fires High-Explosive Anti-Tank rocket.\n\nThis weapon was designed as a smaller and lighter alternative to the RPG-7, especially for use by airborne troops, that's why its so rough and simple. "But still useful when beating Centipedes, except the TailFlame may burn your hairs." an ancient soldier commented.</description>
+    <tickerType>Normal</tickerType>
+    <smeltable>false</smeltable>
+    <graphicData>
+      <texPath>Things/Weapons/Tex_RPG-76</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <!-- ======================================== -->
+    <techLevel>Industrial</techLevel>
+    <costList>
+      <Steel>18</Steel>
+      <Chemfuel>5</Chemfuel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <displayPriority>465</displayPriority>
+    </recipeMaker>
+
+    <statBases>
+      <WorkToMake>1200</WorkToMake> <!-- In vanilla, there's no invincibly heavy-armored pawn even the centipede, that make the HEAT rocket not so important. -->
+      <Mass>2.1</Mass>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+	  <AccuracyTouch>0.75</AccuracyTouch>
+	  <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.36</AccuracyMedium>
+	  <AccuracyLong>0.25</AccuracyLong>
+    </statBases>
+    <weaponTags>
+      <li>GunHeavy</li>
+      <li>GunSingleUse</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>SingleUseWeapon</li>
+    </thingSetMakerTags>
+    <relicChance>0</relicChance>
+	<!-- ========================================== -->
+    <verbs>
+      <li>
+        <verbClass>Verb_ShootOneUse</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>SS_Vanilla_Bullet_RPG-76Grenade_HEAT</defaultProjectile>
+        <forcedMissRadius>0.1</forcedMissRadius> <!-- Forcedmiss? Nope,it should depends on the shooter and weapon itself, not the dice and ForcedMechanism -->
+        <warmupTime>2.5</warmupTime>
+        <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+        <range>16</range>
+		<minRange>2.4</minRange>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <onlyManualCast>false</onlyManualCast>
+        <stopBurstWithoutLos>false</stopBurstWithoutLos>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+	<!-- Tools ========================================== -->
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7.5</power>
+        <cooldownTime>1.65</cooldownTime>
+      </li>
+    </tools>
+	<!-- ========================================== -->
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.8</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+    </comps>
+    </ThingDef>
+</Defs>
