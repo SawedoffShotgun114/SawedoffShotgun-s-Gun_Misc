@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- # AmmoSet_12GaugeWithChamberAdapter ========================================== -->
+<!-- A New Ammoset was Defed, may cause problems: when someone made new shotgunAmmo,they PatchOperation the unversal "AmmoSet_xxGauge", not the "AmmoSet_12GaugeWithChamberAdapter" waiting for one day the author learned Vanilla game well to implement new mechanism with C# instead of XML def. -->
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>SS_Ammo12GaugeWithChamberAdapter</defName>
+		<label>(12/16/20Gauge)/.410Bore/.22LR</label>
+		<parent>AmmoShotguns</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberShotgun</iconPath>
+	</ThingCategoryDef>
+
+<!-- AmmoSet ========================================== -->
+	<CombatExtended.AmmoSetDef>
+		<defName>SS_AmmoSet_12GaugeWithChamberAdapter</defName>
+		<label>12Gauge with Chamber Adapter</label>
+		<ammoTypes>
+			<Ammo_12Gauge_Buck>Bullet_12Gauge_Buck</Ammo_12Gauge_Buck>
+			<Ammo_12Gauge_Slug>Bullet_12Gauge_Slug</Ammo_12Gauge_Slug>
+			<Ammo_12Gauge_Beanbag>Bullet_12Gauge_Beanbag</Ammo_12Gauge_Beanbag>
+			<Ammo_12Gauge_ElectroSlug>Bullet_12Gauge_ElectroSlug</Ammo_12Gauge_ElectroSlug>
+			
+			<Ammo_16Gauge_Buck>Bullet_16Gauge_Buck</Ammo_16Gauge_Buck>
+			<Ammo_16Gauge_Slug>Bullet_16Gauge_Slug</Ammo_16Gauge_Slug>
+			<Ammo_16Gauge_Beanbag>Bullet_16Gauge_Beanbag</Ammo_16Gauge_Beanbag>
+			<Ammo_16Gauge_ElectroSlug>Bullet_16Gauge_ElectroSlug</Ammo_16Gauge_ElectroSlug>
+			
+			<Ammo_20Gauge_Buck>Bullet_20Gauge_Buck</Ammo_20Gauge_Buck>
+			<Ammo_20Gauge_Slug>Bullet_20Gauge_Slug</Ammo_20Gauge_Slug>
+			<Ammo_20Gauge_Beanbag>Bullet_20Gauge_Beanbag</Ammo_20Gauge_Beanbag>
+			<Ammo_20Gauge_ElectroSlug>Bullet_20Gauge_ElectroSlug</Ammo_20Gauge_ElectroSlug>
+			
+			<Ammo_410Bore_Buck>Bullet_410Bore_Buck</Ammo_410Bore_Buck>
+			<Ammo_410Bore_Slug>Bullet_410Bore_Slug</Ammo_410Bore_Slug>
+			<Ammo_410Bore_Beanbag>Bullet_410Bore_Beanbag</Ammo_410Bore_Beanbag>
+			<Ammo_410Bore_ElectroSlug>Bullet_410Bore_ElectroSlug</Ammo_410Bore_ElectroSlug>
+			
+			<Ammo_22LR_FMJ>Bullet_22LR_FMJ</Ammo_22LR_FMJ>
+			<Ammo_22LR_AP>Bullet_22LR_AP</Ammo_22LR_AP>
+			<Ammo_22LR_HP>Bullet_22LR_HP</Ammo_22LR_HP>
+		</ammoTypes>
+		<similarTo>AmmoSet_Shotgun</similarTo>
+	</CombatExtended.AmmoSetDef>
+</Defs>
