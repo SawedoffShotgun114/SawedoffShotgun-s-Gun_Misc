@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>SS_Weapon_PirateGun_Launcher</defName>
+        <statBases>
+            <WorkToMake>9000</WorkToMake>
+            <SightsEfficiency>1</SightsEfficiency>
+            <ShotSpread>0.17</ShotSpread> <!-- short barrel cause more spread -->
+            <SwayFactor>1.4</SwayFactor> <!--  -->
+            <Bulk>6.5</Bulk>
+            <Mass>2.6</Mass>
+            <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown> <!-- longer than original m79 -->
+        </statBases>
+        <costList>
+            <Steel>36</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+            <WoodLog>10</WoodLog>
+        </costList>
+        <weaponTags Inherit="False">
+            <li>GunGrenadeLauncher</li>
+            <li>GunHeavy</li>
+            <li>GrenadeEMP</li>
+            <li>CE_AI_SMOKE</li>
+            <li>CE_AI_AOE</li>
+        </weaponTags>
+        <Properties>
+            <recoilAmount>3.4</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
+            <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+            <warmupTime>1.1</warmupTime>
+            <range>40</range>
+            <minRange>5</minRange>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+            <soundCast>InfernoCannon_Fire</soundCast>
+            <muzzleFlashScale>14</muzzleFlashScale>
+            <ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+        </Properties>
+
+        <AmmoUser>
+            <magazineSize>1</magazineSize>
+            <AmmoGenPerMagOverride>4</AmmoGenPerMagOverride>
+            <reloadTime>2.2</reloadTime>
+            <ammoSet>AmmoSet_40x46mmGrenade</ammoSet>
+        </AmmoUser>
+        
+        <FireModes>
+            <aiUseBurstMode>FALSE</aiUseBurstMode>
+            <aiAimMode>SuppressFire</aiAimMode>
+        </FireModes>
+
+        <researchPrerequisite>CE_Launchers</researchPrerequisite>
+    </Operation>
+    <!-- Tools(Melee) ========================================== -->
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SS_Weapon_PirateGun_Launcher"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>grip</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>2</power>
+					<cooldownTime>1.54</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>muzzle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<cooldownTime>1.54</cooldownTime>
+					<armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+    </Operation>
+
+</Patch>

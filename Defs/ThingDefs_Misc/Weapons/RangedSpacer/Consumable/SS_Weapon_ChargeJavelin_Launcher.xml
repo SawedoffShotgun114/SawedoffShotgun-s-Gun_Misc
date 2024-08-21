@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- ChargeJavelin ==================== -->
+	<!-- # Note: That weapon use 20x105charge ammo and that lance can overcharge. -->
+    <!-- # Note: Anti-LightArmor(Centipede(IFV-like)),85armorpenetration, 300damage→2 shot 1 centipede, but not so efficient in anti-personnel task(only 0.8 explode radius). single-use ========================================== -->
+<ThingDef ParentName="BaseGun">
+	<defName>SS_Weapon_ChargeJavelin_Launcher</defName>
+	<label>charge javelin</label>
+    <description>A lightweight single-use anti-tank pulse-charged rail-assisted lance weapon variation. It fires a single shot at high velocity, charging it with unstable energy as it leaves the acceleration raillauncher. Designed to provide soldiers in the field with a compact anti-armor weapon. To enhance that lance variation's performance in armor-piercing, it design with some overcharge tech, make it a single-use weapon.</description>
+
+    <smeltable>false</smeltable>
+    <graphicData>
+      <texPath>Things/Weapons/Tex_ChargeJavelin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <soundInteract>Interact_ChargeLance</soundInteract>
+    <!-- ======================================== -->
+		<thingClass>ThingWithComps</thingClass>
+		<tickerType>Normal</tickerType>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<techLevel>Spacer</techLevel>
+		<stackLimit>30</stackLimit>
+    <!-- ======================================== -->
+
+    <statBases> <!-- A bit more accurate than ChargeLance -->
+
+      <Mass>2</Mass>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.6</AccuracyTouch><!-- <=3 ;All accuracy Nuffed delibrately, as aiming Centipede have 200% "TargetSize" bonus -->
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+    </statBases>
+    <weaponTags>
+      <li>GunHeavy</li>
+      <li>GunSingleUse</li>
+      <li>SpacerGun</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>SingleUseWeapon</li>
+    </thingSetMakerTags>
+    <relicChance>1</relicChance>
+	<!-- ========================================== -->
+    <verbs>
+      <li>
+        <verbClass>Verb_ShootOneUse</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>SS_Vanilla_Bullet_ChargeJavelin</defaultProjectile>
+        <forcedMissRadius>0.1</forcedMissRadius> <!-- Forcedmiss? Nope,it should depends on the shooter and weapon itself, not the dice and ForcedMechanism -->
+        <warmupTime>2</warmupTime>
+        <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+        <range>24</range>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <!--
+        <onlyManualCast>false</onlyManualCast>
+        -->
+        <stopBurstWithoutLos>false</stopBurstWithoutLos>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+	<!-- Tools ========================================== -->
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+	<!-- ========================================== -->
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.5</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+    </ThingDef>
+
+
+
+
+  <!-- =============Recipe============================= -->
+  <!-- In vanilla, there's no invincible heavy-armored pawn, even the centipede, thus make the HEAT rocket less important. -->
+
+  <!-- ChargeJavelin x5 ========================================== -->
+  <RecipeDef>
+    <defName>MakeChargeJavelin_x5</defName>
+    <label>make charge javelin x5</label>
+    <description>Craft 5 charge javelins.</description>
+    <jobString>Making charge javelins.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>8000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>ComponentSpacer</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SS_Weapon_ChargeJavelin_Launcher>5</SS_Weapon_ChargeJavelin_Launcher>
+    </products>
+
+    <researchPrerequisite>ChargedShot</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>9</Crafting>
+    </skillRequirements>
+    <recipeUsers Inherit="False">
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <displayPriority>250</displayPriority>
+
+  </RecipeDef>
+	<!-- ChargeJavelin x2 ========================================== -->
+  <!-- Author: Intentionally make that recipe don't need ComponentSpacer, at the cost of 5 componentIndustrial per Javelin -->
+  <RecipeDef>
+    <defName>MakeChargeJavelin_x2</defName>
+    <label>make charge javelin x2</label>
+    <description>Craft 2 charge javelins.</description>
+    <jobString>Making charge javelins.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>4000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>24</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>24</count>
+      </li>
+    <!--
+      <li>s
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    -->
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <!--
+        <li>ComponentSpacer</li>
+        -->
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SS_Weapon_ChargeJavelin_Launcher>2</SS_Weapon_ChargeJavelin_Launcher>
+    </products>
+
+    <researchPrerequisite>ChargedShot</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>9</Crafting>
+    </skillRequirements>
+    <recipeUsers Inherit="False">
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <displayPriority>251</displayPriority>
+
+  </RecipeDef>
+
+
+</Defs>

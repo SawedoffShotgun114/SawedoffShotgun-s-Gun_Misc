@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- RPG-76 ========================================== -->
+    <!-- # Feature: Anti-LightArmor(Centipede(IFV-like)),150armorpenetration, 300damage→ 1-2 shot 1 centipede, but not so efficient in anti-personnel task(only 0.8 explode radius). single-use ========================================== -->
+    <!-- Reference: Effective firing range250m,	68 mm, 1.7 kg rocket, 260 mm of penetration ; 88cm length-->
+ 
+    <!-- Author: Sorry to use vanilla DoomsdayLauncher sound -->
+    <ThingDef ParentName="BaseGun">
+    <defName>SS_Weapon_RPG-76_Launcher</defName>
+    <label>RPG-76 Komar</label>
+    <description>A single-use rocket launcher fires High-Explosive Anti-Tank rocket.\n\nThis weapon was designed as a smaller and lighter alternative to the RPG-7, especially for use by airborne troops, that's why its so rough and simple. "But still useful when beating Centipedes, except the TailFlame may burn your hairs." an ancient soldier commented.</description>
+
+    <thingClass>ThingWithComps</thingClass>
+		<tickerType>Normal</tickerType>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<stackLimit>27</stackLimit>
+
+    <smeltable>false</smeltable>
+
+    <graphicData>
+      <texPath>Things/Weapons/Tex_RPG-76</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<soundDrop>Standard_Drop</soundDrop>
+    <!-- ======================================== -->
+  <techLevel>Industrial</techLevel>
+
+  <statBases>
+    <Mass>2.1</Mass>
+    <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+	  <AccuracyTouch>0.5</AccuracyTouch> <!-- <=3 ;All accuracy Nuffed intentionally, as aiming Centipede have 200% "TargetSize" bonus -->
+	  <AccuracyShort>0.6</AccuracyShort> <!-- <=12 -->
+      <AccuracyMedium>0.55</AccuracyMedium> <!-- <=25 -->
+	  <AccuracyLong>0.4</AccuracyLong> <!-- >=25 -->
+    </statBases>
+    <weaponTags>
+      <li>GunHeavy</li>
+      <li>GunSingleUse</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>SingleUseWeapon</li>
+    </thingSetMakerTags>
+    <relicChance>0</relicChance>
+	<!-- ========================================== -->
+    <verbs>
+      <li>
+        <verbClass>Verb_ShootOneUse</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>SS_Vanilla_Bullet_RPG-76Grenade_HEAT</defaultProjectile>
+        <forcedMissRadius>0.1</forcedMissRadius> <!-- Forcedmiss? Nope,it should depends on the shooter and weapon itself, not the dice and ForcedMechanism -->
+        <warmupTime>2.5</warmupTime>
+        <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+        <range>16</range>
+		<minRange>2.4</minRange>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <onlyManualCast>true</onlyManualCast>
+        <stopBurstWithoutLos>false</stopBurstWithoutLos>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+	<!-- Tools ========================================== -->
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7.5</power>
+        <cooldownTime>1.65</cooldownTime>
+      </li>
+    </tools>
+	<!-- ========================================== -->
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.8</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+    </comps>
+    </ThingDef>
+
+  <!-- =============Recipe============================= -->
+  <!-- In vanilla, there's no invincible heavy-armored pawn, even the centipede, thus make the HEAT rocket less important. -->
+
+  <!-- RPG-76 x5 ========================================== -->
+  <RecipeDef>
+    <defName>MakeRPG-76_x5</defName>
+    <label>make RPG-76 x5</label>
+    <description>Craft 5 RPG-76s.</description>
+    <jobString>Making RPG-76s.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>6000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Chemfuel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SS_Weapon_RPG-76_Launcher>5</SS_Weapon_RPG-76_Launcher>
+    </products>
+
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers Inherit="False">
+      <li>TableMachining</li>
+    </recipeUsers>
+    <displayPriority>450</displayPriority>
+
+  </RecipeDef>
+  <!-- RPG-76 x1 ========================================== -->
+  <RecipeDef>
+    <defName>MakeRPG-76_x1</defName>
+    <label>make RPG-76 x1</label>
+    <description>Craft 1 RPG-76.</description>
+    <jobString>Making RPG-76s.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1500</workAmount><!-- In vanilla, there's no invincibly heavy-armored pawn even the centipede, thus make the HEAT rocket less important. -->
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>21</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Chemfuel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+
+    <products>
+      <SS_Weapon_RPG-76_Launcher>1</SS_Weapon_RPG-76_Launcher>
+    </products>
+
+    <researchPrerequisite>GasOperation</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers Inherit="False">
+      <li>TableMachining</li>
+    </recipeUsers>
+    <displayPriority>451</displayPriority>
+
+  </RecipeDef>
+
+</Defs>
