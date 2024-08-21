@@ -1,19 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>SawedoffShotgun's Gun_Misc_Rimworld</name>
+	<name>SawedoffShotgun's Gun_Misc</name>
 	<author>SawedoffShotgun</author>
-	<url>https://github.com/SawedoffShotgun's Gun_Misc_Rimworld</url>
+	<url>https://github.com/AlohaOe114/SawedoffShotgun-s-Gun_Misc</url>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>SawedoffShotgun.Rimworld.Gun.Misc</packageId>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+	    <li>brrainz.harmony</li>
+		<li>CETeam.CombatExtended</li>
+	</loadAfter>
+
 	<description>
-# A Rimworld mod aims to add some new weapons, "ancient(21st)" era most.
+# A 100% XML Rimworld mod aims to add some new weapons that may fit reallife and Vanilla/CE game environment, "ancient(21st)" era weapons most.
+KeyWorlds of this Mod:
+"Flexible"(Less weapon cooldown time and aiming time) or "Cheap" or "Anti-centipede"
 
 # Contents:
-- RPG-76: A light RocketLauncher (Single-use, 150% penetration, Anti-Centipede or other Steel MegaBugs, but only 0.8 explode radius)
+- RPG-76: A light RocketLauncher (Single-use, 150%/300RHA penetration, Anti-Centipede or other Steel MegaBugs, but only 0.8 explode radius)
 - PirateGun: A Smaller M79 grenade launcher (Can fire across wall)(One-handed if have CombatExtended or vanillaexpanded)
 - XM556: A 5.56mm smaller variation of Minigun(More accuracy. In Vanilla, 20 bullet in one shot only, not the 25(Nerf DPS in close range))
-- (WorkInProgress) Javelin: A more lethal ChargeLance variation, Single-use , 85%/100mmRHA penetration(Anti-Centipede or other Steel MegaBugs)
-- (WorkInProgress) ChargeCannon20mm： A charge blaster using 20x105mm ammo, (Anti-Centipede or other Steel MegaBugs)(If use conc. ammo in CombatExtended, it have 80mm RHA penetration)
+- (WorkInProgress) ChargeJavelin: A more lethal ChargeLance variation, Single-use , 85%/100mmRHA penetration(Anti-Centipede or other Steel MegaBugs)
+- (WorkInProgress) ChargeCannon20mm： A charge blaster using 20x105mm ammo(80% penetration, Anti-Centipede or other Steel MegaBugs)(If use conc. ammo in CombatExtended, it have 80mm RHA penetration)
 
-- (CE Only) FNFAL + M203: A famous rifle with underbarrel grenadelauncher
+- (CE Only) FNFAL + M203: A famous rifle with 40x46mm underbarrel grenadelauncher
 - (CE Only) CouchGun with chamber adapter (Can use various lower-caliber ammo: 12Gauge, 20Ga, .410Bore, .22LR)
 
 ## QA:
@@ -30,12 +47,4 @@ Version: 1.0.0.1 (Rimworld 1.5 support)
 
 ![Preview](/About/Preview.png)
     </description>
-	<supportedVersions>
-		<li>1.5</li>
-	</supportedVersions>
-	<packageId>SawedoffShotgun.Rimworld.Gun.Misc</packageId>
-	<loadAfter>
-	    <li>brrainz.harmony</li>
-		<li>CETeam.CombatExtended</li>
-	</loadAfter>
 </ModMetaData>
