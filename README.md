@@ -16,8 +16,6 @@
 
 # Description:
 
-(CE patch WIP, so Charge)
-
  A 100% XML Rimworld mod aims to add some new weapons that may fit reallife and Vanilla/CE game environment, "ancient(21st)" era weapons most.
  KeyWorlds of this Mod's specific contents:
   "Flexible"(Less weapon cooldown time and aiming time) or "Cheap/Improvise" or "Anti-centipede"
@@ -26,6 +24,8 @@
 
 
 # Features:(Introduct content's Stats/Tech)
+
+
 
  #### Vanilla, but with CE patch:
  - RPG-76: A light RocketLauncher (Single-use, 150%/300RHA penetration, Anti-Centipede or other Steel MegaBugs, but only 0.8 explode radius) (cheaper than M72LAW)
@@ -39,7 +39,7 @@
 
  - EMPGenerator: An Individual long range Weapon fires EMP burst, can also cause EMP damage in melee combat. (More accurate than EMP grenade)
 
- - (Obsolete) XM556: A 5.56mm calibre variation of Minigun(More accurate than vanilla minigun. In Vanilla, 20 bullet in one shot only, not the 25(Nerf DPS in close range))
+ - ~~(Obsolete) XM556: A 5.56mm calibre variation of Minigun(More accurate than vanilla minigun. In Vanilla, 20 bullet in one shot only, not the 25(Nerf DPS in close range))~~
 
  #### CE Only:
  - FNFAL + M203: A famous rifle with 40x46mm underbarrel grenadelauncher
@@ -69,6 +69,19 @@
 	
 
   CE:
+    Gun
+  
+    Dmg
+  
+    Range
+  
+    Burst
+
+    AmmoSet
+  
+    ...
+  
+  
  
 # Notes:
  As the Author strange to Vanilla combat system, Weapon Stats for Vanilla version may not so banlanced.
@@ -85,22 +98,25 @@
  Q2: Why you just use vanilla MechTurret's base as 20mmChargeBlasterTurret's base? etc(Texture issues).
  A2: I may draw/optimize Textures later... but now I wanna to stretch 114 hours into 514 hours. ToT
  
- Q3: 为何 电荷投枪/RPG-76 的合成配方未翻译为中文?
+ Q3: 为何 电荷投枪(charge javelin)/RPG-76 的合成配方未翻译为中文?
  A3: 已翻译，但在游戏中由于未知原因并未显示，作者表示暂时不知道如何修复。
  
 # Compatibility:
  Mid-Game compatible
  Vanilla compatible
- **Note: CE patch Still WIP** CombatExtended(CE) WIP
  
- CharacterEditor(CE) compatible
- CheatEngine(CE) may compatible
+ ==**CombatExtended(CE) Compatible**==
+
+ CharacterEditor(CE) Compatible
+ CheatEngine(CE) may Compatible
 
 # KnownIssues:
  Unknown(By 20240809)
 
 # UpdateLog:
- - 20240822 - first public release. (Official CE patch coming soon)
+ - 20240822 - first public pre-release on github. (Official CE patch coming soon)
+ - 20240826 - first public release on github. (CE patch finished)
+ 
 # FuturePlans:
  (WIP) SawedoffShotgun's Mechanoid_Combat
 
@@ -114,19 +130,21 @@
 # License:
  (Placeholder)
 
-# Links/Contacts:
+# Links/Contacts: (If you have any questions, please Email me.)
  Contact Information:  
   youngturksfree@outlook.com (mainly)
 
- Github: https://github.com/AlohaOe114    
+ Github: https://github.com/AlohaOe114
  Ludeon: (Placeholder)
 
-# SeeAlso:(Other mods made by me)
+# SeeAlso:(Other mods/pieces made by me)
  (Placeholder)
 
 # If you like my mods
- Ko-fi me if you like
+ Ko-fi me if you like    
  Patreon
+
+ Commissions are not being accepted now.
 
 
 ![Preview](/About/Preview.png)
