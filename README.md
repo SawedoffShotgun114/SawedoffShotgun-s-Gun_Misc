@@ -102,13 +102,13 @@
  A3: 已翻译，但在游戏中由于未知原因并未显示，作者表示暂时不知道如何修复。
  
 # Compatibility:
- Mid-Game compatible
- Vanilla compatible
+ Mid-Game compatible   
+ Vanilla compatible   
  
- ==**CombatExtended(CE) Compatible**==
+ ==**!!CombatExtended(CE) Compatible!!**==   
 
- CharacterEditor(CE) Compatible
- CheatEngine(CE) may Compatible
+ CharacterEditor(CE) Compatible   
+ CheatEngine(CE) may Compatible   
 
 # KnownIssues:
  Unknown(By 20240809)
