@@ -20,12 +20,14 @@
 	<!-- SS_Weapon_FGC-9MKIIMini_Gun 想不出来其名称应该翻译成什么，不翻了 -->
 	<SS_Weapon_FGC-9MKIIMini_Gun.description>一款知名的3d打印的半自动手枪\n\n其因易于制作与对抗枪械管制而闻名世间。</SS_Weapon_FGC-9MKIIMini_Gun.description>
 
-
+	<SS_Weapon_EMPGenerator_Gun.label>EMP发生器</SS_Weapon_EMPGenerator_Gun.label>
+	<SS_Weapon_EMPGenerator_Gun.description>EMP发生器会释放出一股电磁能量流。可瘫痪机械目标（机械体、炮塔、迫击炮）以及耗尽范围内护盾的能量。\n\n\n\n"妈的，有台飞螳进咱家自动炮堆里了!" *一轮强劲的电流响起* "神枪手啊，LiaLu"</SS_Weapon_EMPGenerator_Gun.description>
 
 	<SS_Weapon_20mmChargeBlasterTurret_Gun.label>20mm电荷冲击炮</SS_Weapon_20mmChargeBlasterTurret_Gun.label>
 	<SS_Weapon_20mmChargeBlasterTurret_Gun.description>大口径20x105mm重型穿甲电荷冲击炮。其电荷炮弹在相当远的射界内可造成装甲穿透与大量伤害。但其枪管在使用后必须翻新。</SS_Weapon_20mmChargeBlasterTurret_Gun.description>
 	<SS_Building_Auto20mmChargeBlaster_Turret.label>20mm电荷冲击炮塔</SS_Building_Auto20mmChargeBlaster_Turret.label>
 	<SS_Building_Auto20mmChargeBlaster_Turret.description>一种装载了用于区域火力的电荷冲击炮的炮塔，它不能向近距离目标射击，损坏时可能会爆炸。</SS_Building_Auto20mmChargeBlaster_Turret.description>
+
 	<!--
 	<SS_Weapon_XM556_Gun.label>XM556</SS_Weapon_XM556_Gun.label>
 	<SS_Weapon_XM556_Gun.description>作为M134加特林的缩小版，被人称作"Microgun"。是使用5.56x45mm NATO口径子弹的多管转轮机枪。</SS_Weapon_XM556_Gun.description>

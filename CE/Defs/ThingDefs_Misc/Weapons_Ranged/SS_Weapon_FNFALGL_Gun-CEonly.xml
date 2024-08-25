@@ -19,7 +19,8 @@
 		    <skillRequirements>
 			    <Crafting>6</Crafting>
 		    </skillRequirements>
-	    </recipeMaker>
+			<displayPriority>465</displayPriority>
+		</recipeMaker>
         <!-- ========================================== -->
 		<thingSetMakerTags>
 			<li>RewardStandardQualitySuper</li>

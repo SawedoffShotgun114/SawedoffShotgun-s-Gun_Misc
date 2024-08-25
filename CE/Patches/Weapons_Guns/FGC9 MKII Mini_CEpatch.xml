@@ -42,6 +42,8 @@
 			</tools>
 		</value>
 	</Operation>
+
+
 <!-- ## Patching stats of it's ranged appearance -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>SS_Weapon_FGC-9MKIIMini_Gun</defName>

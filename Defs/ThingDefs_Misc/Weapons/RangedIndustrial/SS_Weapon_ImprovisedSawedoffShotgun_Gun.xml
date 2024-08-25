@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>SS_Weapon_ImprovisedSawedoffShotgun_Gun</defName>
+    <label>improvised sawedoff shotgun</label>
+    <description>An ancient DIY short shotgun that emits a tight-packed spray of pellets. Deadly, but short range.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Weapons/Tex_ImprovisedSawedoffShotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.8</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Autopistol</soundInteract>
+    <weaponClasses>
+      <li>ShortShots</li>
+    </weaponClasses>
+    <weaponTags>
+      <li>ShortShots</li>
+      <li>PumpShotgun</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>3000</WorkToMake>
+      <Mass>2.35</Mass>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.52</AccuracyMedium>
+      <AccuracyLong>0.46</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+	  <WoodLog>4</WoodLog>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	  <researchPrerequisite>Machining</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+      <displayPriority>811</displayPriority>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>SS_Vanilla_Bullet_12Gauge_Buck</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>14</range>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

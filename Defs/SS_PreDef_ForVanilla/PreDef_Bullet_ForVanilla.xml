@@ -18,20 +18,20 @@
 <!-- ## Gun ammo ========================================== -->
 
 <!-- #### Bullet_22LR_FMJ (.22 LR FMJ) (StatReference: IRL(i.e. SurvivorRifle, etc. IRL)) ========================================== -->
-  <ThingDef ParentName="BaseBullet">
-    <defName>SS_Vanilla_Bullet_22LR_FMJ</defName>
-    <label>.22 LR(FMJ) bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>3.8</damageAmountBase>
-	  <stoppingPower>0.1</stoppingPower>
-      <speed>40</speed>
-    </projectile>
-  </ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>SS_Vanilla_Bullet_22LR_FMJ</defName>
+		<label>.22 LR(FMJ) bullet</label>
+		<graphicData>
+		  <texPath>Things/Projectile/Bullet_Small</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+		  <damageDef>Bullet</damageDef>
+		  <damageAmountBase>3.8</damageAmountBase>
+		  <stoppingPower>0.1</stoppingPower>
+		  <speed>40</speed>
+		</projectile>
+	</ThingDef>
 <!-- #### Bullet_9x19mmPara_FMJ (9x19mm Para FMJ) (StatReference: Bullet_MachinePistol InGame(i.e. Tec9 IRL)) ========================================== -->
 	<ThingDef ParentName="BaseBullet">
 		<defName>SS_Vanilla_Bullet_9x19mmPara_FMJ</defName>
@@ -46,38 +46,37 @@
 		  <stoppingPower>0.3</stoppingPower>
 		  <speed>55</speed>
 		</projectile>
-
-  </ThingDef>
+  	</ThingDef>
 <!-- #### Bullet_9x19mmParaSD_FMJ (9x19mm Para Subsonic FMJ) (StatReference: Bullet_MachinePistol InGame(i.e. Tec9 IRL)) ========================================== -->
-  <ThingDef ParentName="BaseBullet">
-    <defName>SS_Vanilla_Bullet_9x19mmParaSD_FMJ</defName>
-    <label>9x19mm ParaSD(FMJ) bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>4.9</damageAmountBase>
+	<ThingDef ParentName="BaseBullet">
+	<defName>SS_Vanilla_Bullet_9x19mmParaSD_FMJ</defName>
+	<label>9x19mm ParaSD(FMJ) bullet</label>
+	<graphicData>
+	  <texPath>Things/Projectile/Bullet_Small</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+	  <damageDef>Bullet</damageDef>
+	  <damageAmountBase>4.9</damageAmountBase>
 	  <stoppingPower>0.15</stoppingPower>
-      <speed>40</speed>
-    </projectile>
-  </ThingDef>
+	  <speed>40</speed>
+	</projectile>
+	</ThingDef>
 <!-- #### Bullet_45ACP_FMJ (.45ACP FMJ) (StatReference:(Maybe...) Bullet_HeavySMG InGame(i.e. Sorry, IDK what Vanilla's HeavySMG corresponds to IRL)) ========================================== -->
-  <ThingDef ParentName="BaseBullet">
-    <defName>SS_Vanilla_Bullet_45ACP_FMJ</defName>
-    <label>.45ACP(FMJ) bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>12</damageAmountBase>
+	<ThingDef ParentName="BaseBullet">
+	<defName>SS_Vanilla_Bullet_45ACP_FMJ</defName>
+	<label>.45ACP(FMJ) bullet</label>
+	<graphicData>
+	  <texPath>Things/Projectile/Bullet_Small</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+	  <damageDef>Bullet</damageDef>
+	  <damageAmountBase>12</damageAmountBase>
 	  <stoppingPower>0.45</stoppingPower>
-      <speed>48</speed>
-    </projectile>
-  </ThingDef>
+	  <speed>48</speed>
+	</projectile>
+	</ThingDef>
 <!-- #### (Obsolete?)   Bullet_5.56mx45NATO_FMJ (5.56x45mm NATO FMJ) as snipper...? (StatReference:(Maybe...) Bullet_HeavySMG InGame(i.e. Sorry, IDK what Vanilla's HeavySMG corresponds to IRL)) ========================================== -->
 	<ThingDef ParentName="BaseBullet">
 	  <defName>SS_Vanilla_Bullet_556x45mmNATO_FMJ</defName>
@@ -94,44 +93,64 @@
 	  </projectile>
 	</ThingDef>
 <!-- ####(Thanks CE) Bullet_20x105mmCharged_AP (A high-caliber anti-material ammo) -->
-  <ThingDef ParentName="BaseBullet">
-    <defName>SS_Vanilla_Bullet_20x105mmCharged_AP</defName>
-    <label>20mm charge(conc.) blaster shot</label>
-    <graphicData>
-      <texPath>Things/Projectile/Charge_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>41</damageAmountBase>
+	<ThingDef ParentName="BaseBullet">
+	<defName>SS_Vanilla_Bullet_20x105mmCharged_AP</defName>
+	<label>20mm charge(conc.) blaster shot</label>
+	<graphicData>
+	  <texPath>Things/Projectile/Charge_Small</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+	  <damageDef>Bullet</damageDef>
+	  <damageAmountBase>41</damageAmountBase>
 	  <stoppingPower>2</stoppingPower>
-      <armorPenetrationBase>0.8</armorPenetrationBase>
-      <speed>90</speed>
-    </projectile>
-  </ThingDef>
+	  <armorPenetrationBase>0.8</armorPenetrationBase>
+	  <speed>90</speed>
+	</projectile>
+	</ThingDef>
   
-<!-- #### Bullet_12Gauge_Buck   (StatReference:(Maybe...(i.e. ...))(Author buffed the shotgun's damage, but nuffed the armor-penetration ability) -->
-  <ThingDef ParentName="BaseBullet">
-    <defName>SS_Vanilla_Bullet_12Gauge_Buck</defName>
-    <label>shotgun blast</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>18</damageAmountBase>
-      <stoppingPower>3</stoppingPower>
-      <armorPenetrationBase>0.14</armorPenetrationBase>
-      <speed>55</speed>
-    </projectile>
-  </ThingDef>
+<!-- #### Bullet_12Gauge_Buck   (StatReference:(Maybe...(i.e. ...))(Compared to Vanilla, Author buffed the shotgun's damage, but nuffed the armor-penetration ability) -->
+	<ThingDef ParentName="BaseBullet">
+	<defName>SS_Vanilla_Bullet_12Gauge_Buck</defName>
+	<label>shotgun blast</label>
+	<graphicData>
+	  <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+	  <damageDef>Bullet</damageDef>
+	  <damageAmountBase>18</damageAmountBase>
+	  <stoppingPower>3</stoppingPower>
+	  <armorPenetrationBase>0.14</armorPenetrationBase>
+	  <speed>55</speed>
+	</projectile>
+	</ThingDef>
+
+
+<!-- #### SS_Vanilla_Bullet_EMPBurstGun -->
+	<ThingDef ParentName="BaseBullet">
+		<defName>SS_Vanilla_Bullet_EMPBurstGun</defName>
+		<label>EMP burst stream</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.5</drawSize>
+			<shaderType>TransparentPostLight</shaderType>
+			<color>(68,150,215)</color>
+		</graphicData>
+		<projectile>
+			<damageDef>EMP</damageDef>
+			<damageAmountBase>35</damageAmountBase>
+			<speed>120</speed>
+		</projectile>
+	</ThingDef>
+
 
 
 <!-- ## Grenade/Rocket ammo ========================================== -->
 
 <!-- ### Single-use ========================================== -->
-<!-- #### Bullet_ChargeJavelin  (chagrejavelin overcharged 12mmchargedAP Projectile's Def) ========================================== -->
+<!-- #### Bullet_ChargeJavelin  (chagrejavelin overcharged 20x105mm chargedAP Projectile's Def) ========================================== -->
 	<ThingDef ParentName="BaseBullet">
 		<defName>SS_Vanilla_Bullet_ChargeJavelin</defName>
 		<label>charge javelin Charged_vanilla</label>
@@ -241,16 +260,17 @@
 		<defName>SS_Damage_RPG7grenadeExplosion</defName>
 		<defaultDamage>300</defaultDamage>
 		<armorCategory>Sharp</armorCategory>
+		<explosionSnowMeltAmount>0</explosionSnowMeltAmount>
 		<defaultStoppingPower>13</defaultStoppingPower>
 		<defaultArmorPenetration>1.6</defaultArmorPenetration>
 		<minDamageToFragment>15</minDamageToFragment>
-		<buildingDamageFactorImpassable>0.2</buildingDamageFactorImpassable>
-		<buildingDamageFactorPassable>0.02</buildingDamageFactorPassable>
-		<plantDamageFactor>0.02</plantDamageFactor>
-		<corpseDamageFactor>0.02</corpseDamageFactor>
+		<buildingDamageFactorImpassable>0.25</buildingDamageFactorImpassable>
+		<buildingDamageFactorPassable>0.1</buildingDamageFactorPassable>
+		<plantDamageFactor>0.1</plantDamageFactor>
+		<corpseDamageFactor>0.1</corpseDamageFactor>
 	</DamageDef>
 <!-- #### FragmentBomb explosives ========================================== -->
-		<DamageDef ParentName="Bomb">
+	<DamageDef ParentName="Bomb">
 		<defName>SS_Damage_GrenadeExplosion</defName>
 		<defaultDamage>50</defaultDamage>
 		<armorCategory>Sharp</armorCategory>
