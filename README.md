@@ -141,8 +141,8 @@
  (Placeholder)
 
 # If you like my mods
- Ko-fi me if you like    
- Patreon
+ ~~Ko-fi me if you like~~    
+ ~~Patreon~~
 
  Commissions are not being accepted now.
 
