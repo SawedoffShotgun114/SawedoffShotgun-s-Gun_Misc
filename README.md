@@ -3,12 +3,14 @@
   <h1 align="right">SawedoffShot's Gun_Misc</h1>
 </p>
 
-<p align="middle">
+<p align="right">
   <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-Gun_Misc/releases">
     <img src="https://img.shields.io/badge/-latest%20release-gray?style=for-the-badge&logo=github">
   </a>
+  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-Gun_Misc/releases">
+    <img src="https://img.shields.io/badge/-Email%20me-blue?style=for-the-badge&logo=mail">
+  </a>
 </p>
-
 
 
  - Since 20240718
