@@ -15,6 +15,8 @@
 # Another languages of README:(Please Click hyperlinks below)
  - [中文版README(简介)](README_zh-Hans.md)
 
+------------------------------------------
+
  - Since 20240718
  - Version: 1.0.1.3 (Rimworld 1.5/1.4 support)
 
