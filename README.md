@@ -12,24 +12,26 @@
   </a>
 </p>
 
+# Another languages of README:(Please Click hyperlinks below)
+ - [中文版README(简介)](README_zh-Hans.md)
 
  - Since 20240718
  - Version: 1.0.1.3 (Rimworld 1.5/1.4 support)
 
-# Description:
+## Description:
 
  A 100% XML Rimworld mod aims to add some new weapons that may fit reallife and Vanilla/CE game environment, "ancient(21st)" era weapons most.
  KeyWorlds of this Mod's specific contents:
   "Flexible"(Less weapon cooldown time and aiming time) or "Cheap/Improvise" or "Anti-centipede"
 
- "Aha, Look whad'we found today." "Just some metal scraps." "Sure?"
+ "Aha, Look whad'we found today." "Just some ancient metal scraps?" "Sure?"
 
 
-# Features:(Introduct content's Stats/Tech)
+## Features:(Introduct content's Stats/Tech)
 
 
 
- #### Vanilla, but with CE patch:
+ ##### Vanilla, but with CE patch:
  - RPG-76: A light RocketLauncher (Single-use, 150%/300RHA penetration, Anti-Centipede or other Steel MegaBugs, but only 0.8 explode radius) (cheaper than M72LAW)
  - ChargeJavelin: A more lethal ChargeLance variation, Single-use , 85%/100mmRHA penetration(Anti-Centipede or other Steel MegaBugs)
  - PirateGun: A Smaller M79 grenade launcher (Can fire across wall in Vanilla)(One-handed if have CombatExtended or vanillaexpanded)
@@ -43,7 +45,7 @@
 
  - ~~(Obsolete) XM556: A 5.56mm calibre variation of Minigun(More accurate than vanilla minigun. In Vanilla, 20 bullet in one shot only, not the 25(Nerf DPS in close range))~~
 
- #### CE Only:
+ ##### CE Only:
  - FNFAL + M203: A famous rifle with 40x46mm underbarrel grenadelauncher
  - CouchGun with chamber adapter (Can use various lower-caliber ammo: 12Gauge, 16Ga, 20Ga, .410Bore, .22LR)
  - Sawed-off Shotgun with chamber adapter (Can use various lower-caliber ammo: 12Gauge, 16Ga, 20Ga, .410Bore, .22LR)
@@ -85,25 +87,22 @@
   
   
  
-# Notes:
+## Notes:
  As the Author strange to Vanilla combat system, Weapon Stats for Vanilla version may not so banlanced.
 
-# Languages:
+## Languages:
  - English
  - ChineseSimplified
  - ChineseTraditional
 
-# FAQ:
+## FAQ:
  Q1: CE compatible?
  A1: CE compatible. And some interesting features or things are only made for CE version.(Idw whether it have fully Vanilla Compatible one day)
 
- Q2: Why you just use vanilla MechTurret's base as 20mmChargeBlasterTurret's base? etc(Texture issues).
- A2: I may draw/optimize Textures later... but now I wanna to stretch 114 hours into 514 hours. ToT
- 
- Q3: 为何 电荷投枪(charge javelin)/RPG-76 的合成配方未翻译为中文?
- A3: 已翻译，但在游戏中由于未知原因并未显示，作者表示暂时不知道如何修复。
- 
-# Compatibility:
+ Q2: All Texture issues including but not limited to: "Texture style Non-conformant", "Why you just use vanilla MechTurret's base as 20mmChargeBlasterTurret's base?", etc.
+ A2: I may draw/optimize Textures later... but now I wanna to stretch 114 hours into 514 hours.
+
+## Compatibility:
  Mid-Game compatible   
  Vanilla compatible   
  
@@ -112,37 +111,37 @@
  CharacterEditor(CE) Compatible   
  CheatEngine(CE) may Compatible   
 
-# KnownIssues:
+## KnownIssues:
  Unknown(By 20240809)
 
-# UpdateLog:
+## UpdateLog:
  - 20240822 - first public pre-release on github. (Official CE patch coming soon)
  - 20240826 - first public release on github. (CE patch finished)
  
-# FuturePlans:
+## FuturePlans:
  (WIP) SawedoffShotgun's Mechanoid_Combat
 
-# Credit:
+## Credit:
  - **!! All community contributors and You - Love, Mental stimulation and support, Test and Feedback !!**
  - **!! Tonas (Combat Extended Launcher's author) - refered to some of his/her "BalanceNotes.txt" and inspired me !!**
 
-# Authors:
+## Authors:
  - SawedoffShotgun
 
-# License:
+## License:
  (Placeholder)
 
-# Links/Contacts: (If you have any questions, please Email me.)
+## Links/Contacts: (If you have any questions, please Email me.)
  Contact Information:  
   youngturksfree@outlook.com (mainly)
 
  Github: https://github.com/AlohaOe114
  Ludeon: (Placeholder)
 
-# SeeAlso:(Other mods/pieces made by me)
+## SeeAlso:(Other mods/pieces made by me)
  (Placeholder)
 
-# If you like my mods
+## If you like my mods
  ~~Ko-fi me if you like~~    
  ~~Patreon~~
 
