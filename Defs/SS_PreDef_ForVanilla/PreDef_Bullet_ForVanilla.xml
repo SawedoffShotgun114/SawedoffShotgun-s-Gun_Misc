@@ -45,6 +45,7 @@
 		  <damageAmountBase>6</damageAmountBase>
 		  <stoppingPower>0.3</stoppingPower>
 		  <speed>55</speed>
+		  <armorPenetrationBase>0.14</armorPenetrationBase>
 		</projectile>
   	</ThingDef>
 <!-- #### Bullet_9x19mmParaSD_FMJ (9x19mm Para Subsonic FMJ) (StatReference: Bullet_MachinePistol InGame(i.e. Tec9 IRL)) ========================================== -->
@@ -60,6 +61,7 @@
 	  <damageAmountBase>4.9</damageAmountBase>
 	  <stoppingPower>0.15</stoppingPower>
 	  <speed>40</speed>
+	  <armorPenetrationBase>0.12</armorPenetrationBase>
 	</projectile>
 	</ThingDef>
 <!-- #### Bullet_45ACP_FMJ (.45ACP FMJ) (StatReference:(Maybe...) Bullet_HeavySMG InGame(i.e. Sorry, IDK what Vanilla's HeavySMG corresponds to IRL)) ========================================== -->

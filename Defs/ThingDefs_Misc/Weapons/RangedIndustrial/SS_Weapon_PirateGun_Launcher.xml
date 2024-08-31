@@ -8,7 +8,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>SS_Weapon_PirateGun_Launcher</defName>
         <label>pirate gun</label>
-        <description>A simple old break-action grenade launcher, with sawed-off butt-stock and shortened barrel./n/n/n/nWith curved-fire ability.</description>
+        <description>A simple old break-action grenade launcher, with sawed-off butt-stock and shortened barrel.\n\n\n\nWith curved-fire ability.</description>
         <graphicData>
             <texPath>Things/Weapons/Tex_PirateGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -34,11 +34,11 @@
             <WoodLog>10</WoodLog>
         </costList>
         <recipeMaker>
-        <skillRequirements>
-            <Crafting>4</Crafting>
-        </skillRequirements>
-		<researchPrerequisite>GasOperation</researchPrerequisite>
-        <displayPriority>460</displayPriority>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>GasOperation</researchPrerequisite>
+			<displayPriority>460</displayPriority>
         </recipeMaker>
         <verbs>
         <li>

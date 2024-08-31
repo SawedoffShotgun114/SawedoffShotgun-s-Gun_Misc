@@ -7,7 +7,7 @@
   <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-Gun_Misc/releases">
     <img src="https://img.shields.io/badge/-latest%20release-gray?style=for-the-badge&logo=github">
   </a>
-  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-Gun_Misc/releases">
+  <a href="youngturksfree@outlook.com">
     <img src="https://img.shields.io/badge/-Email%20me-blue?style=for-the-badge&logo=mail">
   </a>
 </p>
@@ -24,10 +24,16 @@
 
  “哈，看看咱今个都找到啥?” “就一堆古代的破铜烂铁?” “你再看看”
 
+# 兼容性:
+ 游戏中途加入-安全
+ 原版Core兼容
+ 
+ ==**!!CombatExtended(CE) Compatible/CE兼容!!**==   
+
+ CharacterEditor(CE) Compatible   
+ CheatEngine(CE) may Compatible   
 
 # 特性：
-
-
 
  #### Vanilla，但有 CE 补丁：
  - RPG-76： 一种轻型火箭发射器（单次使用，150%/300RHA 穿透力，反蜈蚣或其他钢铁巨虫，但爆炸半径只有 0.8）（比 M72LAW 便宜）
@@ -108,15 +114,6 @@
  Q3: 为何 电荷投枪(charge javelin)/RPG-76 的合成配方未翻译为中文?
  A3: 已翻译，但在游戏中由于未知原因并未显示，作者表示暂时不知道如何修复。
 
-# 兼容性:
- 游戏中途加入-安全
- 原版Core兼容
- 
- ==**!!CombatExtended(CE) Compatible/CE兼容!!**==   
-
- CharacterEditor(CE) Compatible   
- CheatEngine(CE) may Compatible   
-
 # 已知问题:
  暂时未知(截至 20240809)
 
@@ -128,8 +125,8 @@
  (WIP) SawedoffShotgun's Mechanoid_Combat
 
 # 致谢名单:
- - **!! All community contributors and You - Love, Mental stimulation and support, Test and Feedback !!**
- - **!! Tonas (Combat Extended Launcher's author) - refered to some of his/her "BalanceNotes.txt" and inspired me !!**
+ - **!! 感谢所有社区贡献者与社区享受者，和你 - 鼓励支持与bug反馈 !!**
+ - **!! Tonas ("Combat Extended Launcher"的作者) - 参考了下他/她写的 "BalanceNotes.txt"的数据， 当然也有启发到鄙人 !!**
 
 # 关于作者:
  - SawedoffShotgun
