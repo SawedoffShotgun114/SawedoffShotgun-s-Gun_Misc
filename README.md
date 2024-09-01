@@ -22,14 +22,14 @@
 
 ## Description:
 
- A 100% XML Rimworld mod aims to add some new weapons that may fit reallife and Vanilla/CE game environment, "ancient(21st)" era weapons most.
- KeyWorlds of this Mod's specific contents:
-  "Flexible"(Less weapon cooldown time and aiming time) or "Cheap/Improvise" or "Anti-centipede"
+ A 100% XML Rimworld mod aims to add some new Guns that are characteristics and may fit reallife and Vanilla/CE game environment, "ancient(21st)" era weapons most.
+ KeyWorlds of this Mod's specific contents(Show its feature or usage):    
+  "Flexible"(Less weapon cooldown time and aiming time) or "Improvise(Cheap/LowTechNeeded)" or "Anti-centipede"
 
  "Aha, Look whad'we found today." "Just some ancient metal scraps?" "Sure?"
 
 ## Compatibility:
- Mid-Game adding compatible   
+ "Mid-Game adding" compatible   
  Vanilla compatible   
  
  ==**!!CombatExtended(CE) Compatible!!**==   
@@ -40,23 +40,33 @@
 ## Features:(Introduct content's Stats/Tech)
 
  ##### Vanilla, but with CE patch:
- - **RPG-76**: A light RocketLauncher (Single-use, 150%/300RHA penetration, Anti-Centipede or other Steel MegaBugs, but only 0.8 explode radius) (cheaper than M72LAW)
- - **ChargeJavelin**: A more lethal ChargeLance variation, Single-use , 85%/100mmRHA penetration(Anti-Centipede or other Steel MegaBugs)
- - **PirateGun**: A Smaller M79 grenade launcher (Can fire across wall in Vanilla)(One-handed if have CombatExtended or vanillaexpanded)
+ - **RPG-76** (Anti-Centipede; as a cheaper alternatives of M72LAW):   
+ A light RocketLauncher (Single-use, 150%/300RHA penetration, Anti-Centipede or other Steel MegaBugs, but only 0.8 explode radius) (cheaper than M72LAW)
+ - **ChargeJavelin** (Anti-Centipede; as a superior alternatives of M72LAW):   
+ A more lethal ChargeLance variation, Single-use , 85%/100mmRHA penetration(Anti-Centipede or other Steel MegaBugs)
+ - **PirateGun** (Explosive weapon):    
+ A Smaller M79 grenade launcher (Can fire across wall in Vanilla)(One-handed if have CombatExtended or vanillaexpanded)
 
- - **Auto20mmChargeBlasterTurret**： A charge blaster turret using 20x105mm ammo(80% penetration, Anti-Centipede or other Steel MegaBugs)(Reload using Plasteel in Vanilla)(80mm RHA penetration if use conc. ammo in CombatExtended)(Can toggle fire/aim mode in CE)
+ - **Auto20mmChargeBlasterTurret** (Anti-Centipede):    
+ A charge blaster turret using 20x105mm ammo(80% penetration, Anti-Centipede or other Steel MegaBugs)(Reload using Plasteel in Vanilla)(80mm RHA penetration if use conc. ammo in CombatExtended)(Can toggle fire/aim mode in CE)
 
- - **Improvised Sawed-off Shotgun**: A crazy easy-to-make Shotgun(12Gauge). Can also use BlackGunPowder ammo if CE loaded.
- - **FGC-9**: A crazy easy-to-make autopistol.
+ - **Improvised Sawed-off Shotgun** (Improvise):    
+ A crazy easy-to-make Shotgun(12Gauge). Can also use BlackGunPowder ammo if CE loaded.
+ - **FGC-9** (Improvise):    
+ A crazy easy-to-make autopistol.
 
- - **EMPGenerator**: An Individual long range Weapon fires EMP burst, can also cause EMP damage in melee combat. (More accurate than EMP grenade)
+ - **EMPGenerator** (long-range EMP gun):    
+ An Individual long range Weapon fires EMP burst, can also cause EMP damage in melee combat. (More accurate than EMP grenade)
 
  - ~~(Obsolete) XM556: A 5.56mm calibre variation of Minigun(More accurate than vanilla minigun. In Vanilla, 20 bullet in one shot only, not the 25(Nerf DPS in close range))~~
 
  ##### CE Only:
- - **FNFAL + M203**: A famous rifle with 40x46mm underbarrel grenadelauncher
- - **CouchGun with chamber adapter**: (Can use various lower-caliber ammo: 12Gauge, 16Ga, 20Ga, .410Bore, .22LR)
- - **Sawed-off Shotgun with chamber adapter**: (Can use various lower-caliber ammo: 12Gauge, 16Ga, 20Ga, .410Bore, .22LR)
+ - **FNFAL + M203**:    
+ A famous rifle with 40x46mm underbarrel grenadelauncher
+ - **CouchGun with chamber adapter**:    
+ (Can use various lower-caliber ammo: 12Gauge, 16Ga, 20Ga, .410Bore, .22LR)
+ - **Sawed-off Shotgun with chamber adapter**:    
+ (Can use various lower-caliber ammo: 12Gauge, 16Ga, 20Ga, .410Bore, .22LR)
 
 ### WeaponStats:
 
