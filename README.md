@@ -64,9 +64,9 @@
  - **FNFAL + M203**:    
  A famous rifle with 40x46mm underbarrel grenadelauncher
  - **CouchGun with chamber adapter**:    
- (Can use various lower-caliber ammo: 12Gauge, 16Ga, 20Ga, .410Bore, .22LR)
+ (Can use various lower-caliber ammo: 12Gauge, 20Ga, .410Bore, .22LR)
  - **Sawed-off Shotgun with chamber adapter**:    
- (Can use various lower-caliber ammo: 12Gauge, 16Ga, 20Ga, .410Bore, .22LR)
+ (Can use various lower-caliber ammo: 12Gauge, 20Ga, .410Bore, .22LR)
 
 ### WeaponStats:
 
