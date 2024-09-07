@@ -153,11 +153,12 @@
  [SawedoffShotgun's Gun_Misc]()    
  [SawedoffShotgun's Mechanoid_Combat]()    
 
-## 如果您喜欢我的作品
- ~~Ko-fi me if you like~~    
+## 如果您喜欢我的作品    
+ (也许能鞭策作者能进行一个更肝更快的更新)    
+ [如果您喜欢我的作品，那么能否帮我点杯ko-fi](https://ko-fi.com/sawedoffshotgun)    
+ [爱发电](https://afdian.com/a/SawedoffShotgun)    
  ~~Patreon~~    
 
  暂不接委托
-
 
 ![Preview](/About/Preview.png)
