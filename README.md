@@ -12,12 +12,14 @@
   </a>
 </p>
 
+
 # Another languages of README:(Please Click hyperlinks below)
- - [中文版README(简介)](README_zh-Hans.md)
+ - [点此可阅读中文版README(简介)](README_zh-Hans.md)
 
 # Disclaimer
  This mod is only a clumsy work made in rush. It is compiled based on the author’s personal experience and memory, and there may be omissions, inadequacies, or even errors.
  The author of this article is not responsible for any consequences caused by self-operation without reading this Introduction documents(README.md) first.
+
 ------------------------------------------
 
  - Since 20240718
@@ -25,22 +27,23 @@
 
 ## Description:
 
- A 100% XML Rimworld mod aims to add some new Guns that are characteristics and may fit reallife and Vanilla/CE game environment, "ancient(21st)" era weapons most.
+ A 100% XML Rimworld mod aims to add some new Guns that are characteristics and may fit reallife and Vanilla/CE game environmen. "Ancient(21st)" era weapons most.    
+ 
  KeyWorlds of this Mod's specific contents(Show its feature or usage):    
-  "Flexible"(Less weapon cooldown time and aiming time) or "Improvise(Cheap/LowTechNeeded)" or "Anti-centipede"
+ "Flexible"(Less weapon cooldown time and aiming time) or "Improvise(Cheap/LowTechNeeded)" or "Anti-centipede"    
 
- "Aha, Look whad'we found today." "Just some ancient metal scraps?" "Sure?"
+ "Aha, Look whad'we found today." "Just some ancient metal scraps?" "Sure?"    
 
 ## Compatibility:
- "Mid-Game adding" compatible   
- Vanilla compatible   
+ "Mid-Game adding" compatible    
+ Vanilla compatible    
  
- ==**!!CombatExtended(CE) Compatible!!**==   
+ ==**!!CombatExtended(CE) Compatible!!**==    
 
- CharacterEditor(CE) Compatible   
- CheatEngine(CE) may Compatible   
+ CharacterEditor(CE) Compatible    
+ CheatEngine(CE) may Compatible    
 
-## Features:(Introduct content's Stats/Tech)
+## Features: (Introduction of content's Stats/Tech)
 
  ##### Vanilla, but with CE patch:
  - **RPG-76** (Anti-Centipede; as a cheaper alternatives of M72LAW):   
@@ -71,44 +74,18 @@
  - **Sawed-off Shotgun with chamber adapter**:    
  (Can use various lower-caliber ammo: 12Gauge, 20Ga, .410Bore, .22LR)
 
-### If you think some contents just meaningless, I'd recommend "CherryPicker" mod to "delete" them.
+### [If you think some of the contents meaningless, I'd recommend "CherryPicker" mod to "delete" them.(Original author: Owlchemist(https://steamcommunity.com/sharedfiles/filedetails/?id=2633276599))](https://steamcommunity.com/sharedfiles/filedetails/?id=3230046902)
 
 ### WeaponStats:
 
  BasicStats:
+
   Vanilla:
-	
-	Gun
-	
-	Dmg
-	
-	Range
-	
-	Burst
-	
-	Accuracy Touch
-	
-	Accuracy Short
-	
-	Accuracy Medium
-	
-	Accuracy Long
-	
+  (Placeholder)
 
   CE:
-    Gun
-  
-    Dmg
-  
-    Range
-  
-    Burst
+  (Placeholder)
 
-    AmmoSet
-  
-    ...
-
-------------------------------------------
 ------------------------------------------
  
 ## Notes:
@@ -121,13 +98,16 @@
 
 ## FAQ:
  Q1: CE compatible?
- A1: CE compatible. And some interesting features or things are only made for CE version.(Idw whether it have fully Vanilla Compatible one day)
+ A1: CE compatible! And some interesting features or things are only made for CE version.(Idw whether it have fully Vanilla Compatible one day)
 
- Q2: All Texture issues including but not limited to: "Texture style Non-conformant", "Ugly", "Why you just use vanilla MechTurret's base as 20mmChargeBlasterTurret's base?", etc.    
+ Q2: All Texture issues including but not limited to: "Texture style Non-conformant", "Ugly", "Why just use vanilla MechTurret's base as 20mmChargeBlasterTurret's base?", etc.    
  A2: I may draw/optimize Textures later... but now I wanna to stretch 114 hours into 514 hours.    
  
- Q3: In CE, EMPGenerator have no ammo, but still need reload?    
+ Q3: In CE, EMPGenerator can reload without ammos?    
  A3: Yep, the author intentionally made that feature.    
+
+**("Starter Part" Above)    
+(If this is the first time you using this mod, you can stop reading at here and just goto play the "Rimworld" now.)**
 
 ------------------------------------------
 
@@ -140,8 +120,18 @@
  - 20240826 v1.0.2.0-rc
    - first public release on github. (CE patch finished)
  - 20240904 v1.0.2.1-rc
-   - EMPGenerator's ammo settings. RPG-76 texture's quality improved.
-   
+   - EMPGenerator's ammo settings in CE.
+   - RPG-76 texture's quality improved.
+
+## Reference:
+ - Бесполезная помощь: польская реактивная противотанковая граната RPG-76 Komar. (2022). Военное Обозрение. Retrieved from https://topwar.ru/193496-bespoleznaja-pomosch-reaktivnaja-protivotankovaja-granata-rpg-76-komar-polsha.html
+ - Admin. (2022, March 14). Ukrainian forces takes delivery of Polish RPG-76 Komar rocket-propelled grenade - MilitaryLeak.COM. MILITARYLEAK.COM. https://militaryleak.com/2022/03/14/ukrainian-forces-takes-delivery-of-polish-rpg-76-komar-rocket-propelled-grenade/
+ - Wikipedia contributors. (2024, August 7). RPG-76 Komar. Wikipedia. https://en.wikipedia.org/wiki/RPG-76_Komar
+
+**("Nerd Part" Above)**
+
+------------------------------------------
+
 ## FuturePlans:
  (Placeholder)
 
@@ -167,11 +157,9 @@
  [SawedoffShotgun's Mechanoid_Combat]()
 
 ## If you like my mods
- ~~爱发电~~    
- ~~Ko-fi me if you like(may encourage the author to update faster)~~    
+ ~~Ko-fi me if you like(may motivate the author work faster)~~    
  ~~Patreon~~    
 
  Commissions are not being accepted now.
-
 
 ![Preview](/About/Preview.png)
