@@ -17,8 +17,8 @@
  - [点此可阅读中文版README(简介)](README_zh-Hans.md)
 
 # Disclaimer
- This mod is only a clumsy work made in rush. It is compiled based on the author’s personal experience and memory, and there may be omissions, inadequacies, or even errors.
- The author of this article is not responsible for any consequences caused by self-operation without reading this Introduction documents(README.md) first.
+ This mod is only a clumsy work made in rush. It is compiled based on the author’s personal experience and memory, and there may be omissions, inadequacies, or even errors.    
+ The author of this article is not responsible for any consequences caused by self-operation without reading this Introduction documents(README.md) first.    
 
 ------------------------------------------
 
