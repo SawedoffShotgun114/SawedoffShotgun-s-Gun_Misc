@@ -147,15 +147,15 @@
  联系方式:    
   [电子邮件Email(主要方式): youngturksfree@outlook.com](mailto:youngturksfree@outlook.com)    
   [Github: https://github.com/AlohaOe114](https://github.com/AlohaOe114)    
- Ludeon(官方论坛): SawedoffShotgun
+ Ludeon(官方论坛): SawedoffShotgun    
 
-## 另见:(其他作品)
- [SawedoffShotgun's Gun_Misc]()
- [SawedoffShotgun's Mechanoid_Combat]()
+## 另见:(其他作品)    
+ [SawedoffShotgun's Gun_Misc]()    
+ [SawedoffShotgun's Mechanoid_Combat]()    
 
-## 如果你喜欢我的作品
+## 如果您喜欢我的作品
  ~~Ko-fi me if you like~~    
- ~~Patreon~~
+ ~~Patreon~~    
 
  暂不接委托
 
