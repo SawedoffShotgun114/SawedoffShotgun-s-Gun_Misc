@@ -17,8 +17,8 @@
  - [点此可阅读中文版README(简介)](README_zh-Hans.md)
 
 # Disclaimer
- This mod is only a clumsy work made in rush. It is compiled based on the author’s personal experience and memory, and there may be omissions, inadequacies, or even errors.    
- The author of this article is not responsible for any consequences caused by self-operation without reading this Introduction documents(README.md) first.    
+ - This mod is only a clumsy work made in rush. It is compiled based on the author’s personal experience and memory, and there may be omissions, inadequacies, or even errors.    
+ - The author of this article is not responsible for any consequences caused by self-operation without reading this Introduction documents(README.md) first.    
 
 ------------------------------------------
 
@@ -68,13 +68,13 @@
 
  ##### CE Only:
  - **FNFAL + M203**:    
- A famous rifle with 40x46mm underbarrel grenadelauncher    
+ An Ancient famous rifle with 40x46mm underbarrel grenadelauncher    
  - **CouchGun with chamber adapter**:    
  (Can use various lower-caliber ammo: 12Gauge, 20Ga, .410Bore, .22LR)
  - **Sawed-off Shotgun with chamber adapter**:    
  (Can use various lower-caliber ammo: 12Gauge, 20Ga, .410Bore, .22LR)
 
-### [If you think some of the contents meaningless, I'd recommend "CherryPicker" mod to "delete" them.(Original author: Owlchemist(https://steamcommunity.com/sharedfiles/filedetails/?id=2633276599))](https://steamcommunity.com/sharedfiles/filedetails/?id=3230046902)
+### [If you think some of the contents meaningless, I'd recommend "CherryPicker" mod to "delete" them specificly.(Original author: Owlchemist (o7) (https://steamcommunity.com/sharedfiles/filedetails/?id=2633276599))](https://steamcommunity.com/sharedfiles/filedetails/?id=3230046902)
 
 ### WeaponStats:
 
@@ -103,7 +103,7 @@
  Q2: All Texture issues including but not limited to: "Texture style Non-conformant", "Ugly", "Why just use vanilla MechTurret's base as 20mmChargeBlasterTurret's base?", etc.    
  A2: I may draw/optimize Textures later... but now I wanna to stretch 114 hours into 514 hours.    
  
- Q3: In CE, EMPGenerator can reload without ammos?    
+ Q3: In CE, Why EMPGenerator can reload without ammos?    
  A3: Yep, the author intentionally made that feature.    
 
 **("Starter Part" Above)    
@@ -128,12 +128,16 @@
  - Admin. (2022, March 14). Ukrainian forces takes delivery of Polish RPG-76 Komar rocket-propelled grenade - MilitaryLeak.COM. MILITARYLEAK.COM. https://militaryleak.com/2022/03/14/ukrainian-forces-takes-delivery-of-polish-rpg-76-komar-rocket-propelled-grenade/
  - Wikipedia contributors. (2024, August 7). RPG-76 Komar. Wikipedia. https://en.wikipedia.org/wiki/RPG-76_Komar
 
-**("Nerd Part" Above)**
+**("Geek Part" Above)**
 
 ------------------------------------------
 
 ## FuturePlans:
- (Placeholder)
+ - (Backlog) Charge SawedoffShotgun
+ - (Backlog) SawedoffShotgun made with Plasteel and carbon fiber
+ - (Backlog) MorePowderLoaded/TechEnhancedPowder UraniumFlechette Ammo + Longer barrel Shotgun (12RHA)
+ - (Backlog) Benelli Xrail (23 round semi-auto shotgun)
+ - (Backlog) Type 79 mini RocketLauncher (1.7kg, as small as a bottle of water, 150RHA?(at least 100RHA), 60m maximum effective range ,M72LAW is 165m) (Improvise, Cheap, Flexible) (70mm caliber)
 
 ## Credit:    
  - **!! All community contributors and You - Love, Mental stimulation and support, Test and Feedback !!**    
