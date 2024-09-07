@@ -160,8 +160,8 @@
  [SawedoffShotgun's MeleeWeapons_Misc]()    
  [SawedoffShotgun's Mechanoid_Combat]()    
 
-## If you like my mods    
- (may motivate the author work faster)
+## If you love my mods    
+ (may motivate the author work faster)    
  [Ko-fi me if you appreciate my works](https://ko-fi.com/sawedoffshotgun)    
  [Afdian](https://afdian.com/a/SawedoffShotgun)    
  ~~Patreon~~    
