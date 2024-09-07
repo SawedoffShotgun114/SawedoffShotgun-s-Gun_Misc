@@ -20,10 +20,12 @@
 			<Ammo_12Gauge_Beanbag>Bullet_12Gauge_Beanbag</Ammo_12Gauge_Beanbag>
 			<Ammo_12Gauge_ElectroSlug>Bullet_12Gauge_ElectroSlug</Ammo_12Gauge_ElectroSlug>
 			
+			<!--
 			<Ammo_16Gauge_Buck>Bullet_16Gauge_Buck</Ammo_16Gauge_Buck>
 			<Ammo_16Gauge_Slug>Bullet_16Gauge_Slug</Ammo_16Gauge_Slug>
 			<Ammo_16Gauge_Beanbag>Bullet_16Gauge_Beanbag</Ammo_16Gauge_Beanbag>
 			<Ammo_16Gauge_ElectroSlug>Bullet_16Gauge_ElectroSlug</Ammo_16Gauge_ElectroSlug>
+			-->
 			
 			<Ammo_20Gauge_Buck>Bullet_20Gauge_Buck</Ammo_20Gauge_Buck>
 			<Ammo_20Gauge_Slug>Bullet_20Gauge_Slug</Ammo_20Gauge_Slug>
