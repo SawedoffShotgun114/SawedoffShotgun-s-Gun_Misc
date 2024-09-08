@@ -34,12 +34,12 @@
 
  "Aha, Look whad'we found today." "Just some ancient metal scraps?" "Sure?"    
 
-## Compatibility:
+## Compatibility:    
  "Mid-Game adding" compatible    
- Vanilla compatible    
- 
+
  ==**!!CombatExtended(CE) Compatible!!**==    
 
+ Vanilla compatible    
  CharacterEditor(CE) Compatible    
  CheatEngine(CE) may Compatible    
 
@@ -164,7 +164,7 @@
  (may motivate the author work faster)    
  [Ko-fi me if you appreciate my works](https://ko-fi.com/sawedoffshotgun)    
  [Afdian](https://afdian.com/a/SawedoffShotgun)    
- ~~Patreon~~    
+ ~~[Patreon]~~    
 
  Commissions are not being accepted now.
 

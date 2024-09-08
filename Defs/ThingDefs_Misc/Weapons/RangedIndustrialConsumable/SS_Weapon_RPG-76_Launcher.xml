@@ -49,7 +49,7 @@
     <thingSetMakerTags>
       <li>SingleUseWeapon</li>
     </thingSetMakerTags>
-    <relicChance>0</relicChance>
+    <relicChance>1</relicChance>
 
 	<!-- ========================================== -->
     <verbs>

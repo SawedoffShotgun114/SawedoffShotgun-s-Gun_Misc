@@ -55,12 +55,7 @@
 			<li>GunHeavy</li>
 		</weaponTags>
 
-		<!-- recipe -->
-		<costList>
-			<Steel>15</Steel>
-			<FSX>1</FSX>
-			<ComponentIndustrial>1</ComponentIndustrial>
-		</costList>
+
 		<!--
 		<researchPrerequisite>CE_Launchers</researchPrerequisite>
 		-->
@@ -166,11 +161,20 @@
 	</Operation>
 	-->
 
+
+
+    <!-- That part may looks so illegal, but It just worked well, so do not do any change -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>
 			Defs/ThingDef[defName="SS_Weapon_RPG-76_Launcher"]
 		</xpath>
 		<value>
+			<!-- recipe -->
+			<costList>
+				<Steel>15</Steel>
+				<FSX>1</FSX>
+				<ComponentIndustrial>1</ComponentIndustrial>
+			</costList>
 			<recipeMaker>
 				<researchPrerequisite>CE_Launchers</researchPrerequisite>
 				<skillRequirements>
@@ -189,6 +193,7 @@
 	</Operation>
 
 
+<!-- Historical issues solved -->
 <![CDATA[
 
 <!-- That part's issue: nesting? (<xpath>Defs.../workAmount</xpath><value><workAmount>27500</workAmount></value>...) -->

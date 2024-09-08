@@ -43,8 +43,8 @@
             <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-            <Steel>100</Steel>
-            <ComponentIndustrial>10</ComponentIndustrial>
+            <Steel>50</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
         </costList>
         <recipeMaker>
             <skillRequirements>
@@ -83,7 +83,7 @@
                 <cooldownTime>2</cooldownTime>
             </li>
 
-            <!-- Same EMP damage with EMP shot in melee attack -->
+            <!-- EMP shot 35damage; EMP melee damage 50 (In close range, EMP burst have no decay)(And that can also be considered as a bonus for brave melee warriors)  -->
             <li>
                 <label>head</label>
                 <capacities>
@@ -94,7 +94,7 @@
                 <extraMeleeDamages>
                     <li>
                         <def>EMP</def>
-                        <amount>35</amount>
+                        <amount>50</amount>
                     </li>
                 </extraMeleeDamages>
             </li>
@@ -108,7 +108,7 @@
                 <extraMeleeDamages>
                     <li>
                         <def>EMP</def>
-                        <amount>35</amount>
+                        <amount>50</amount>
                     </li>
                 </extraMeleeDamages>
             </li>

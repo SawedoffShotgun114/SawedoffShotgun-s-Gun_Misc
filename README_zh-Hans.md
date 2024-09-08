@@ -33,21 +33,21 @@
  ~~"每个武器都有特别之处，每个都有他们独门Def，数据的平衡性更是技惊四座(较符合原版/CE环境强度)，秘密特性更是给你意外的惊喜呀"~~    
  
 ## 兼容性:
- 游戏中途加入-安全
- 原版Core兼容
- 
- ==**!!CombatExtended(CE) Compatible/CE兼容/战斗扩展兼容!!**==   
-
- CharacterEditor(CE) Compatible   
- CheatEngine(CE) may Compatible   
+ 游戏中途加入-安全    
+     
+ ==**!!CombatExtended(CE) Compatible/CE兼容/战斗扩展兼容!!**==    
+    
+ 原版Core兼容   
+ 人物编辑器(CharacterEditor)(CE)兼容   
+ CheatEngine(CE) 也许兼容   
 
 ## 特性: (对作品内容的数值/特性的介绍)
 
- ##### Vanilla(原版)，也但有 CE 补丁：
+ ##### Vanilla(原版)，也但有 CE 补丁：   
  - RPG-76 (反蜈蚣; 可作为M72LAW的便宜平替)：   
- 一种轻型火箭发射器（单次使用，150%/300RHA 穿透力，反蜈蚣或其他钢铁巨虫，但爆炸半径只有 0.8）（比 M72LAW 便宜）
+ 一种轻型火箭发射器（单次使用，150%/300RHA 穿透力，反蜈蚣或其他钢铁巨虫，但爆炸半径只有 0.8）（比 M72LAW 便宜）   
  - 电荷投枪 (反蜈蚣; 作为M72LAW的更轻更精准的上位替代品)：    
- 更致命的电荷标枪变体，单次使用，85%/100mmRHA穿透力（反蜈蚣或其他钢铁巨虫） 
+ 更致命的电荷标枪变体，单次使用，85%/100mmRHA穿透力（反蜈蚣或其他钢铁巨虫）  
  - PirateGun (爆炸类武器; 单手使用(CE)):    
  小型 M79 榴弹发射器（在 原版 中可隔墙发射）（在 CE（战斗扩展）或 VanillaExpanded(原版拓展) 下可单手持握）。    
     
@@ -80,6 +80,8 @@
    (占位符)
   CE环境:
    (占位符)
+
+------------------------------------------
 
 ## 请注意:
  作者玩CE玩的，可能不够熟悉原版环境
@@ -136,12 +138,12 @@
  - **!! 感谢所有社区贡献者与社区享受者，和您 - 鼓励支持与bug反馈 !!**
  - **!! Tonas ("Combat Extended Launcher"的作者) - 参考了下他/她写的 "BalanceNotes.txt"的数据， 当然也有启发到鄙人 !!**
 
-## 关于作者:
- - SawedoffShotgun
+## 关于作者们:    
+ - SawedoffShotgun    
 
-## 版权/许可:
+## 版权/许可:    
  Rimworld is owned by Tynan Sylvester.    
- (CC BY-NC-ND 4.0)
+ (CC BY-NC-ND 4.0)    
 
 ## 联系方式: (如遇问题，请联系作者电子邮箱)
  联系方式:    
@@ -157,7 +159,7 @@
  (也许能鞭策作者能进行一个更肝更快的更新)    
  [如果您喜欢我的作品，那么能否帮我点杯ko-fi](https://ko-fi.com/sawedoffshotgun)    
  [爱发电](https://afdian.com/a/SawedoffShotgun)    
- ~~Patreon~~    
+ ~~[Patreon]~~    
 
  暂不接委托
 
