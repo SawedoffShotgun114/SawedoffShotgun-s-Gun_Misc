@@ -22,15 +22,6 @@
 			<WorkToMake>5500</WorkToMake>
 		</statBases>
 
-	 	<!--
-		<weaponTags>
-			<li>GunHeavy</li>
-		</weaponTags>
-		<thingCategories>
-			<li>WeaponsRanged</li>
-		</thingCategories>
-		-->
-
 		<Properties>
 			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
@@ -54,22 +45,6 @@
 		<weaponTags>
 			<li>GunHeavy</li>
 		</weaponTags>
-
-
-		<!--
-		<researchPrerequisite>CE_Launchers</researchPrerequisite>
-		-->
-
-		<!--
-		<recipeMaker>
-			<researchPrerequisite>CE_Launchers</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>4</Crafting>
-			</skillRequirements>
-			<displayPriority>462</displayPriority>
-		</recipeMaker>
-		-->
-
 	</Operation>
 
 <!-- ========================================== -->
@@ -150,19 +125,6 @@
 		</xpath>
 	</Operation>
 
-	<!--
-	<Operation Class="PatchOperationAdd">
-		<xpath>
-			Defs/ThingDef[defName="SS_Weapon_RPG-76_Launcher"]/statBases
-		</xpath>
-		<value>
-			<WorkToMake>5500</WorkToMake>
-		</value>
-	</Operation>
-	-->
-
-
-
     <!-- That part may looks so illegal, but It just worked well, so do not do any change -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>
@@ -191,13 +153,6 @@
 				</skillRequirements>
 				<displayPriority>462</displayPriority>
 			</recipeMaker>
-			<!--
-			<costList>
-				<Steel>15</Steel>
-				<FSX>1</FSX>
-				<ComponentIndustrial>1</ComponentIndustrial>
-			</costList>
-			-->
 		</value>
 	</Operation>
 
