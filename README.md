@@ -137,11 +137,11 @@
  - (Backlog) SawedoffShotgun made with Plasteel and carbon fiber
  - (Backlog) MorePowderLoaded/TechEnhancedPowder UraniumFlechette Ammo + Longer barrel Shotgun (12RHA)
  - (Backlog) Benelli Xrail (23 round semi-auto shotgun)
- - (Backlog) Type 79 mini RocketLauncher (1.7kg, as small as a bottle of water, 150RHA?(at least 100RHA), 60m maximum effective range ,M72LAW is 165m) (Improvise, Cheap, Flexible) (70mm caliber)
+ - (Backlog) Type 79 mini RocketLauncher (1.7kg, as small as a bottle of water, 150RHA?(at least 100RHA in 65° angle), 60m maximum effective range ,M72LAW is 165m) (Improvise, Cheap, Flexible) (70mm caliber)
 
-## Credit:    
+## Acknowledgement:    
  - **!! All community contributors and You - Love, Mental stimulation and support, Test and Feedback !!**    
- - **!! Tonas (Combat Extended Launcher's author) - refered to some of his/her "BalanceNotes.txt" and inspired me !!**    
+ - **[!! Tonas (Combat Extended Launcher's author) - refered to some of his/her "BalanceNotes.txt" and inspired the author !! (Click here to visit their sites)](https://steamcommunity.com/sharedfiles/filedetails/?id=2919231977)**    
 
 ## Authors:
  - SawedoffShotgun    
