@@ -73,16 +73,26 @@
 
 ### [If you think some of the contents meaningless, I'd recommend "CherryPicker" mod to "delete" them specificly.(Original author: Owlchemist (o7) (https://steamcommunity.com/sharedfiles/filedetails/?id=2633276599))](https://steamcommunity.com/sharedfiles/filedetails/?id=3230046902)
 
-## QA:
-Q1: CE compatible?
-A1: CE compatible. And some interesting features and things are only for CE(Idw whether it have fully Vanilla Compatible one day)
+## FAQ:
+ Q1: CE compatible?
+ A1: CE compatible! And some interesting features or things are only made for CE version.(Idw whether it have fully Vanilla Compatible one day)
 
-## Acknowledgement:    
+ Q2: All Texture issues including but not limited to: "Texture style Non-conformant", "Ugly", "Why just use vanilla MechTurret's base as 20mmChargeBlasterTurret's base?", etc.    
+ A2: I may draw/optimize Textures later... but now I wanna to stretch 114 hours into 514 hours.    
+ 
+ Q3: In CE, Why EMPGenerator can reload without ammos?    
+ A3: Yep, the author intentionally made that feature.    
+ 
+## Acknowledgement:
  - **!! All community contributors and You - Love, Mental stimulation and support, Test and Feedback !!**    
- - **!! Tonas (Combat Extended Launcher's author) - refered to some of his/her "BalanceNotes.txt" and inspired the author !!**    
+ - **[!! Combat Extended Melee - Inspired me to some extent !! (Click here to visit their sites)](https://steamcommunity.com/sharedfiles/filedetails/?id=1924933379)**    
 
 ## Authors:
- - SawedoffShotgun    
+ - SawedoffShotgun
+
+## License:
+  Rimworld is owned by Tynan Sylvester.    
+  (CC BY-NC-ND 4.0)    
 
 ## Links/Contacts: (If you have any questions, please Email me.)
  Contact Information:    
@@ -91,8 +101,9 @@ A1: CE compatible. And some interesting features and things are only for CE(Idw 
  Ludeon: SawedoffShotgun    
 
 ## SeeAlso:(Other mods/pieces made by me)
- [SawedoffShotgun's MeleeWeapons_Misc]()    
+ [SawedoffShotgun's Gun_Misc]()    
  [SawedoffShotgun's Mechanoid_Combat]()    
+
 
 ![Preview](/About/Preview.png)
     </description>
