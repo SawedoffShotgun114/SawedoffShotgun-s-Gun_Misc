@@ -6,7 +6,7 @@
 <ThingDef ParentName="BaseGun">
 	<defName>SS_Weapon_ChargeJavelin_Launcher</defName>
 	<label>charge javelin</label>
-    <description>A lightweight single-use anti-tank pulse-charged rail-assisted lance weapon variation. It fires a single shot at high velocity, charging it with unstable energy as it leaves the acceleration raillauncher. Designed to provide soldiers in the field with a compact anti-armor weapon. To enhance that lance variation's performance in armor-piercing, it design with some overcharge tech, make it a single-use weapon.</description>
+    <description>A lightweight single-use anti-tank pulse-charged rail-assisted lance weapon variation. It fires a single shot at high velocity, charging it with unstable energy as it leaves the acceleration raillauncher. Designed to provide soldiers in the field with a compact anti-armor weapon. To enhance that lance variation's performance in armor-piercing, it designed with some overcharge tech, make it a single-use weapon.</description>
 
     <smeltable>false</smeltable>
     <graphicData>
@@ -24,8 +24,7 @@
     <!-- ======================================== -->
 
     <statBases> <!-- A bit more accurate than ChargeLance -->
-
-      <Mass>2</Mass>
+      <Mass>2.0</Mass>
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
       <AccuracyTouch>0.6</AccuracyTouch><!-- <=3 ;All accuracy Nuffed delibrately, as aiming Centipede have 200% "TargetSize" bonus -->
       <AccuracyShort>0.75</AccuracyShort>

@@ -11,7 +11,9 @@
 			<ShotSpread>0.05</ShotSpread>
 			<SwayFactor>1.3</SwayFactor>
 			<Bulk>5</Bulk>
-			<Mass>2</Mass>
+			<!--
+			<Mass>2.0</Mass>
+			-->
 			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
 		</statBases>
 	 	<!--
@@ -29,6 +31,7 @@
 			<defaultProjectile>SS_Bullet_ChargeJavelin</defaultProjectile>
 			<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 			<warmupTime>1.6</warmupTime>
+			<recoilAmount>1.2</recoilAmount>
 			<range>45</range>
 			<minRange>3</minRange>
 			<targetParams>
@@ -44,7 +47,6 @@
 		</FireModes>
 
 		<weaponTags>
-			<li>GunHeavy</li>
 			<li>AdvancedGun</li>
 		</weaponTags>
 	</Operation>
@@ -59,9 +61,17 @@
 		</value>
 	</Operation>
 
-		<tradeTags Inherit="False">
-			<li>CE_HeavyAmmo</li>
-		</tradeTags>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>
+			Defs/ThingDef[defName="SS_Weapon_ChargeJavelin_Launcher"]/tradeTags
+		</xpath>
+	    <value>
+
+				<li>CE_HeavyAmmo</li>
+
+	    </value>
+	</Operation>
 
 	<!-- ============== tools ============================ -->
 	<Operation Class="PatchOperationReplace">

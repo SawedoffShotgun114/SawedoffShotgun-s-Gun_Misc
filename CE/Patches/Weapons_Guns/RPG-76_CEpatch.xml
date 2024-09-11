@@ -4,7 +4,9 @@
 
     <!-- ==================== RPG-76 ==================== -->
     <!-- Feature: WorkAmount only 27500/5Launcher, cheap ======================================== -->
-	<!-- Author: Sorry, I don't know how to make rpg casings effect-->
+
+    <!-- Note: the author trying to patch recipeDef:"MakeRPG-76_x1/x5" but failed multi-times but failed... -->
+
 
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>SS_Weapon_RPG-76_Launcher</defName>
@@ -16,15 +18,9 @@
 			<Bulk>5.5</Bulk>
 			<Mass>2.1</Mass>
 			<RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+
+			<WorkToMake>5500</WorkToMake>
 		</statBases>
-	 	<!--
-		<weaponTags>
-			<li>GunHeavy</li>
-		</weaponTags>
-		<thingCategories>
-			<li>WeaponsRanged</li>
-		</thingCategories>
-		-->
 
 		<Properties>
 			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
@@ -52,8 +48,10 @@
 	</Operation>
 
 <!-- ========================================== -->
+
+	<!--
 	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/ThingDef[defName="SS_Weapon_ChargeJavelin_Launcher"]</xpath>
+		<xpath>Defs/ThingDef[defName="SS_Weapon_RPG-76_Launcher"]</xpath>
 		<value>
 			<li Class="CombatExtended.GunDrawExtension">
 				<DrawSize>1.0,1.0</DrawSize>
@@ -61,10 +59,18 @@
 			</li>
 		</value>
 	</Operation>
+	-->
 
-		<tradeTags Inherit="False">
-			<li>CE_HeavyAmmo</li>
-		</tradeTags>
+	<Operation Class="PatchOperationReplace">
+		<xpath>
+			Defs/ThingDef[defName="SS_Weapon_RPG-76_Launcher"]/tradeTags
+		</xpath>
+		<value>
+			<tradeTags Inherit="False">
+				<li>CE_HeavyAmmo</li>
+			</tradeTags>
+		</value>
+	</Operation>
 
 	<!-- ============== tools ============================ -->
 	<Operation Class="PatchOperationReplace">
@@ -108,162 +114,47 @@
 		</value>
 	</Operation>
 
+
 <!-- ============ Recipe patch ============================== -->
 
-<!-- ==================== WorkAmount ==================== -->
-	<Operation Class="PatchOperationReplace">
+<!-- Note: the author trying to patch "MakeRPG-76_x1/x5" but failed multi-times...  The author May optimize that part... later?-->
+
+	<Operation Class="PatchOperationRemove">
 		<xpath>
-			Defs/RecipeDef[defName="MakeRPG-76_x5"]/workAmount
+			Defs/RecipeDef[defName="MakeRPG-76_x1" or defName="MakeRPG-76_x5"]
 		</xpath>
-		<value>
-			<workAmount>27500</workAmount>
-		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
+
+    <!-- That part may looks so illegal, but It just worked well, so do not do any change -->
+	<Operation Class="PatchOperationAdd">
 		<xpath>
-			Defs/RecipeDef[defName="MakeRPG-76_x1"]/workAmount
+			Defs/ThingDef[defName="SS_Weapon_RPG-76_Launcher"]
 		</xpath>
 		<value>
-			<workAmount>6870</workAmount>
-		</value>
-	</Operation>
-<!-- ==================== skillRequirements ==================== -->
-	<Operation Class="PatchOperationReplace">
-		<xpath>
-			Defs/RecipeDef[defName="MakeRPG-76_x5"]
-		</xpath>
-		<value>
-			<skillRequirements>
-				<Crafting>4</Crafting>
-			</skillRequirements>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>
-			Defs/RecipeDef[defName="MakeRPG-76_x1"]
-		</xpath>
-		<value>
-			<skillRequirements>
-				<Crafting>4</Crafting>
-			</skillRequirements>
-		</value>
-	</Operation>
-<!-- ==================== ResearchPrerequisite ==================== -->
-	<Operation Class="PatchOperationReplace">
-		<xpath>
-			Defs/RecipeDef[defName="MakeRPG-76_x5"]/researchPrerequisite
-		</xpath>
-		<value>
-			<researchPrerequisite>CE_Laun0chers</researchPrerequisite>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>
-			Defs/RecipeDef[defName="MakeRPG-76_x1"]/researchPrerequisite
-		</xpath>
-		<value>
-			<researchPrerequisite>CE_Launchers</researchPrerequisite>
+			<!-- recipe -->
+			<costList>
+				<Steel>15</Steel>
+				<FSX>1</FSX>
+				<ComponentIndustrial>1</ComponentIndustrial>
+			</costList>
+			<recipeMaker>
+				<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+				<workSkill>Crafting</workSkill>
+				<effectWorking>Smith</effectWorking>
+				<soundWorking>Recipe_Smith</soundWorking>
+				<recipeUsers Inherit="False">
+					<li>TableMachining</li>
+				</recipeUsers>
+				<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+
+				<researchPrerequisite>CE_Launchers</researchPrerequisite>
+				<skillRequirements>
+					<Crafting>4</Crafting>
+				</skillRequirements>
+				<displayPriority>462</displayPriority>
+			</recipeMaker>
 		</value>
 	</Operation>
 
-<!-- ==================== ingredients overhaul ==================== -->
-<Operation Class="PatchOperationReplace">
-	<xpath>
-		Defs/RecipeDef[defName="MakeRPG-76_x5"]/ingredients
-	</xpath>
-	<value>
-		<ingredients>
-			<li>
-			  <filter>
-				<thingDefs>
-				  <li>Steel</li>
-				</thingDefs>
-			  </filter>
-			  <count>75</count>
-			</li>
-			<li>
-			  <filter>
-				<thingDefs>
-				  <li>FSX</li>
-				</thingDefs>
-			  </filter>
-			  <count>5</count>
-			</li>
-			<li>
-			  <filter>
-				<thingDefs>
-				  <li>ComponentIndustrial</li>
-				</thingDefs>
-			  </filter>
-			  <count>5</count>
-			</li>
-		  </ingredients>
-	</value>
-</Operation>
-
-<Operation Class="PatchOperationReplace">
-	<xpath>
-		Defs/RecipeDef[defName="MakeRPG-76_x1"]/ingredients
-	</xpath>
-	<value>
-		<ingredients>
-			<li>
-			  <filter>
-				<thingDefs>
-				  <li>Steel</li>
-				</thingDefs>
-			  </filter>
-			  <count>21</count>
-			</li>
-			<li>
-			  <filter>
-				<thingDefs>
-				  <li>FSX</li>
-				</thingDefs>
-			  </filter>
-			  <count>2</count>
-			</li>
-			<li>
-			  <filter>
-				<thingDefs>
-				  <li>ComponentIndustrial</li>
-				</thingDefs>
-			  </filter>
-			  <count>1</count>
-			</li>
-		  </ingredients>
-	</value>
-</Operation>
-
-<!-- fixedIngredientFilter ========================================== -->
-<Operation Class="PatchOperationReplace">
-	<xpath>
-		Defs/RecipeDef[defName="MakeRPG-76_x5"]/fixedIngredientFilter
-	</xpath>
-	<value>
-		<fixedIngredientFilter>
-			<thingDefs>
-			  <li>Steel</li>
-			  <li>FSX</li>
-			  <li>ComponentIndustrial</li>
-			</thingDefs>
-		  </fixedIngredientFilter>
-	</value>
-</Operation>
-
-<Operation Class="PatchOperationReplace">
-	<xpath>
-		Defs/RecipeDef[defName="MakeRPG-76_x1"]/fixedIngredientFilter
-	</xpath>
-	<value>
-		<fixedIngredientFilter>
-			<thingDefs>
-			  <li>Steel</li>
-			  <li>FSX</li>
-			  <li>ComponentIndustrial</li>
-			</thingDefs>
-		  </fixedIngredientFilter>
-	</value>
-</Operation>
 
 </Patch>

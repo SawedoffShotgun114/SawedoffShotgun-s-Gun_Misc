@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+		
+			<!-- From: BaseBaseExplosiveBullet -->
+			<suppressionFactor>3.0</suppressionFactor>
+			<dangerFactor>2.0</dangerFactor>
+			
+			<!-- From: BaseBulletCE -->
+			<explosionDamageFalloff>true</explosionDamageFalloff>
+		</projectile>
+
 	<!-- ================== Projectiles ================== -->
 
-	<ThingDef ParentName="BaseRPG7Grenade">
+	<ThingDef ParentName="BaseExplosiveBullet">
 		<defName>SS_Bullet_ChargeJavelin</defName>
 		<label>charge javelin Charged</label>
 		<graphicData>
@@ -14,44 +24,23 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<speed>192</speed>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>215</damageAmountBase>
-			<armorPenetrationSharp>300</armorPenetrationSharp>
+			<damageAmountBase>235</damageAmountBase>
+			<armorPenetrationSharp>100</armorPenetrationSharp>
 			<armorPenetrationBlunt>3158.4</armorPenetrationBlunt>
-
+			<!--
+			<soundAmbient>RocketPropelledLoop_Small</soundAmbient>
+			-->
 			<dropsCasings>true</dropsCasings>
 			<casingMoteDefname>SS_Fleck_ChargeJavelinCasing</casingMoteDefname>
 			<casingFilthDefname>SS_Filth_ChargeJavelinCasings</casingFilthDefname>
 		</projectile>
 		<comps>
 			<li Class="CombatExtended.CompProperties_ExplosiveCE">
-				<damageAmountBase>135</damageAmountBase>
+				<damageAmountBase>115</damageAmountBase>
 				<explosiveDamageType>Bomb</explosiveDamageType>
 				<explosiveRadius>1</explosiveRadius>
 				<explosionSound>MortarBomb_Explode</explosionSound>
 				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-			</li>
-			
-			<li Class="CombatExtended.CompProperties_ProjectileFleck">
-				<FleckDatas>
-					<li>
-						<fleck>Fleck_CERocketFlame</fleck>
-						<emissionsPerTick>0</emissionsPerTick>
-						<flecksPerEmission>0</flecksPerEmission>
-						<scale>0</scale>
-						<cutoffTickRange>0~0</cutoffTickRange>
-					</li>
-					<li>
-						<fleck>Fleck_CERocketSmokeTrail</fleck>
-						<emissionsPerTick>0</emissionsPerTick>
-						<flecksPerEmission>0</flecksPerEmission>
-					</li>
-					<li>
-						<fleck>Fleck_CERocketSmoke</fleck>
-						<emissionsPerTick>0</emissionsPerTick>
-						<flecksPerEmission>0</flecksPerEmission>
-						<cutoffTickRange>0~0</cutoffTickRange>
-					</li>
-				</FleckDatas>
 			</li>
 		</comps>
 	</ThingDef>

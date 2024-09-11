@@ -6,9 +6,3 @@
 3. Write more and detailed comments(Defing things stats) at the Author's wish (A good habit. but not easy to insist on. \*shrug\*)
 
 ...
-
-
-# Specific principle for this mod:
-
-KeyWorlds of this Mod:
-"Flexible"(Less weapon cooldown time and aiming time) or "Cheap" or "Anti-centipede"

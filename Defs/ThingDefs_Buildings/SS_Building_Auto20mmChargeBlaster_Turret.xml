@@ -129,7 +129,7 @@
     <label>20mm charge blaster turret</label>
     <description>A pulse-charged rapid-fire armor-penetration blaster for area fire.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/ChargeBlasterLight</texPath>
+      <texPath>Things/Building/Auto20mmChargeBlasterTurret/Tex_20mmChargeBlasterTurret</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>

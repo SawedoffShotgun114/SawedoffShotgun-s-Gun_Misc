@@ -82,6 +82,7 @@
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
+			<displayPriority>463</displayPriority>
 		</recipeMaker>
 	    <!-- ========================================== -->    
 		<tools>

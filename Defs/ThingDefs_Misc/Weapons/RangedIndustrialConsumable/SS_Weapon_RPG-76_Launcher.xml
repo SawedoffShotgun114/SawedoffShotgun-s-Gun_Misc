@@ -5,10 +5,10 @@
     <!-- Reference: Effective firing range250m,	68 mm, 1.7 kg rocket, 260 mm of penetration ; 88cm length-->
  
     <!-- Author: Sorry to use vanilla DoomsdayLauncher sound -->
-    <ThingDef ParentName="BaseGun">
+  <ThingDef ParentName="BaseGun">
     <defName>SS_Weapon_RPG-76_Launcher</defName>
     <label>RPG-76 Komar</label>
-    <description>A single-use rocket launcher fires High-Explosive Anti-Tank rocket.\n\nThis weapon was designed as a smaller and lighter alternative to the RPG-7, especially for use by airborne troops, that's why its so rough and simple. "But still useful when beating Centipedes, except the TailFlame may burn your hairs." an ancient soldier commented.</description>
+    <description>A single-use rocket launcher fires High-Explosive Anti-Tank rocket.\n\nThis weapon was designed as a smaller and lighter alternative to the RPG-7, especially for use by airborne troops, that's why its so rough and simple.\n\n\n\n"But still useful when beating Centipedes, except the TailFlame may burn your hairs." an ancient soldier commented.</description>
 
     <thingClass>ThingWithComps</thingClass>
 		<tickerType>Normal</tickerType>
@@ -18,18 +18,19 @@
     <smeltable>false</smeltable>
 
     <graphicData>
-      <texPath>Things/Weapons/Tex_RPG-76</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+		<texPath>Things/Weapons/Tex_RPG-76</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>1.2</drawSize>
     </graphicData>
 	<equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
 	<soundDrop>Standard_Drop</soundDrop>
     <!-- ======================================== -->
-  <techLevel>Industrial</techLevel>
+    <techLevel>Industrial</techLevel>
 
-  <statBases>
-    <Mass>2.1</Mass>
-    <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    <statBases>
+      <Mass>2.1</Mass>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
 	  <AccuracyTouch>0.5</AccuracyTouch> <!-- <=3 ;All accuracy Nuffed intentionally, as aiming Centipede have 200% "TargetSize" bonus -->
 	  <AccuracyShort>0.6</AccuracyShort> <!-- <=12 -->
       <AccuracyMedium>0.55</AccuracyMedium> <!-- <=25 -->
@@ -48,7 +49,8 @@
     <thingSetMakerTags>
       <li>SingleUseWeapon</li>
     </thingSetMakerTags>
-    <relicChance>0</relicChance>
+    <relicChance>1</relicChance>
+
 	<!-- ========================================== -->
     <verbs>
       <li>
@@ -91,7 +93,7 @@
         <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
       </li>
     </comps>
-    </ThingDef>
+  </ThingDef>
 
   <!-- =============Recipe============================= -->
   <!-- In vanilla, there's no invincible heavy-armored pawn, even the centipede, thus make the HEAT rocket less important. -->
@@ -103,7 +105,7 @@
     <description>Craft 5 RPG-76s.</description>
     <jobString>Making RPG-76s.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <effectWorking>Cook</effectWorking>
+    <effectWorking>Smith</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>6000</workAmount>
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
@@ -145,6 +147,7 @@
       <SS_Weapon_RPG-76_Launcher>5</SS_Weapon_RPG-76_Launcher>
     </products>
 
+
     <researchPrerequisite>GasOperation</researchPrerequisite>
     <skillRequirements>
       <Crafting>6</Crafting>
@@ -163,9 +166,9 @@
     <description>Craft 1 RPG-76.</description>
     <jobString>Making RPG-76s.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <effectWorking>Cook</effectWorking>
+    <effectWorking>Smith</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>1500</workAmount><!-- In vanilla, there's no invincibly heavy-armored pawn even the centipede, thus make the HEAT rocket less important. -->
+    <workAmount>1500</workAmount><!-- In vanilla, there's no invincibly heavy-armored pawn even the centipede, thus make the HEAT rocket not so important as in CE. -->
     <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
 
     <ingredients>

@@ -8,36 +8,37 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>SS_Weapon_PirateGun_Launcher</defName>
         <label>pirate gun</label>
-        <description>A simple old break-action grenade launcher, with sawed-off butt-stock and shortened barrel./n/n/n/nWith curved-fire ability.</description>
+        <description>A simple old break-action grenade launcher, with sawed-off butt-stock and shortened barrel.\n\n\n\nWith curved-fire ability.</description>
         <graphicData>
-        <texPath>Things/Weapons/Tex_PirateGun</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Weapons/Tex_PirateGun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <generateCommonality>0.3</generateCommonality>
         <weaponClasses>
-        <li>RangedHeavy</li>
+            <li>RangedHeavy</li>
         </weaponClasses>
         <statBases>
-        <WorkToMake>8500</WorkToMake>
-        <Mass>2.5</Mass>
-        <RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
-	    <AccuracyTouch>0.60</AccuracyTouch> <!-- <=3 -->
-	    <AccuracyShort>0.65</AccuracyShort> <!-- <=12 -->
-        <AccuracyMedium>0.50</AccuracyMedium> <!-- <=25 -->
-	    <AccuracyLong>0.50</AccuracyLong> <!-- >=25 -->
+            <WorkToMake>8500</WorkToMake>
+            <Mass>2.5</Mass>
+            <RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
+            <AccuracyTouch>0.60</AccuracyTouch> <!-- <=3 -->
+            <AccuracyShort>0.65</AccuracyShort> <!-- <=12 -->
+            <AccuracyMedium>0.50</AccuracyMedium> <!-- <=25 -->
+            <AccuracyLong>0.50</AccuracyLong> <!-- >=25 -->
         </statBases>
         <costList>
-        <Steel>35</Steel>
-        <ComponentIndustrial>2</ComponentIndustrial>
-        <WoodLog>10</WoodLog>
+            <Steel>35</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <WoodLog>10</WoodLog>
         </costList>
         <recipeMaker>
-        <skillRequirements>
-            <Crafting>4</Crafting>
-        </skillRequirements>
-		<researchPrerequisite>GasOperation</researchPrerequisite>
-        <displayPriority>460</displayPriority>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>GasOperation</researchPrerequisite>
+			<displayPriority>460</displayPriority>
         </recipeMaker>
         <verbs>
         <li>

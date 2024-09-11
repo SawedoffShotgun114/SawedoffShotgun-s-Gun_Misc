@@ -8,7 +8,7 @@
     <graphicData>
       <texPath>Things/Weapons/Tex_ImprovisedSawedoffShotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>0.75</drawSize>
+	  <drawSize>0.8</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
     <weaponClasses>

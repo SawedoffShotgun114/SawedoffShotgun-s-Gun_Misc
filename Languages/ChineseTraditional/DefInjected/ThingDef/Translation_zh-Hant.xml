@@ -2,39 +2,46 @@
 
 <LanguageData>
 
+<!-- # Non-CE ========================================== -->
+
 <!-- ## SS_Weapon_RPG-76_Launcher ========================================== -->
-<SS_Weapon_RPG-76_Launcher.label>RPG-76 火箭發射器</SS_Weapon_RPG-76_Launcher.label>
-<SS_Weapon_RPG-76_Launcher.description>發射反坦克破甲彈的一次性火箭發射器。\n\n這種武器比傳統的RPG-7或M72LAW更小更輕，專為空降部隊設計，且其因設計上粗糙簡陋而價廉。\n\n\n\n「但是在"除蟲"時很好使，不過這玩意得架在肩上使，別教那尾焰把你頭發絲(sei)點著了。」一位不願透漏姓名的古代士兵評價道。</SS_Weapon_RPG-76_Launcher.description>
+    <SS_Weapon_RPG-76_Launcher.label>RPG-76 火箭發射器</SS_Weapon_RPG-76_Launcher.label>
+    <SS_Weapon_RPG-76_Launcher.description>發射反坦克破甲彈的一次性火箭發射器。\n\n這種武器比傳統的RPG-7或M72LAW更小更輕，專為空降部隊設計，且其因設計上粗糙簡陋而價廉。\n\n\n\n“但是在"除蟲"時很好使，不過這玩意得架在肩上使，別教那尾焰把妳頭發絲(sei)點著了。”一位不願透漏姓名的古代士兵評價道。</SS_Weapon_RPG-76_Launcher.description>
 <!-- ## SS_Weapon_ChargeJavelin_Launcher ========================================== -->
-<SS_Weapon_ChargeJavelin_Launcher.label>電荷投槍</SS_Weapon_ChargeJavelin_Launcher.label>
-<SS_Weapon_ChargeJavelin_Launcher.description>一種電荷標槍武器的一次性使用的變體，發射高能電荷標槍彈的軌道加速武器。在每一發超高速子彈離開加速軌道之前以不穩定能量對它進行充能。\n\n其設計意在為太空戰場上的士兵提供緊湊便攜的反裝甲武器。而為了增強這種武器在穿甲方面的性能，其過載充能會導致其內部關鍵部件熔毀，因而其為一次性武器。</SS_Weapon_ChargeJavelin_Launcher.description>
+	<SS_Weapon_ChargeJavelin_Launcher.label>電荷投槍</SS_Weapon_ChargeJavelin_Launcher.label>
+	<SS_Weapon_ChargeJavelin_Launcher.description>一種電荷標槍武器的一次性使用的變體，發射高能電荷標槍彈的軌道加速武器。在每一發超高速子彈離開加速軌道之前以不穩定能量對它進行充能。\n\n其設計意在為太空戰場上的士兵提供緊湊便攜的反裝甲武器。而為了增強這種武器在穿甲方面的性能，其過載充能會導致其內部關鍵部件熔毀，因而其為一次性武器。</SS_Weapon_ChargeJavelin_Launcher.description>
 <!-- ## ========================================== -->
-<SS_Weapon_ImprovisedSawedoffShotgun_Gun.label>簡易短管霰彈槍</SS_Weapon_ImprovisedSawedoffShotgun_Gun.label>
-<SS_Weapon_ImprovisedSawedoffShotgun_Gun.description>古代的各類利用手邊材料DIY的短霰彈槍，因其輕巧便攜與製造簡單，而在一些槍械管製較嚴格的中寰世界被用於執行刺殺任務，甚至有些人會選擇裝填上古時期的黑火藥。\n\n其結構簡陋或者說是便於製造，且威力不容小覷。</SS_Weapon_ImprovisedSawedoffShotgun_Gun.description>
+    <SS_Weapon_ImprovisedSawedoffShotgun_Gun.label>簡易短管霰彈槍</SS_Weapon_ImprovisedSawedoffShotgun_Gun.label>
+	<SS_Weapon_ImprovisedSawedoffShotgun_Gun.description>古代的各類利用手邊材料DIY的短霰彈槍，因其輕巧便攜與制造簡單，而在一些槍械管制較嚴格的中寰世界被用於執行刺殺任務，甚至有些人會選擇裝填上古時期的黑火藥。\n\n其結構簡陋或者說是便於制造，且威力不容小覷。</SS_Weapon_ImprovisedSawedoffShotgun_Gun.description>
 <!-- ## ========================================== -->
-<SS_Weapon_PirateGun_Launcher.label>截短式M79榴彈發射器</SS_Weapon_PirateGun_Launcher.label>
-<SS_Weapon_PirateGun_Launcher.description>結構較簡單的縮短款古代中折式榴彈發射器。\n\n其具備曲射能力。</SS_Weapon_PirateGun_Launcher.description>
+	<SS_Weapon_PirateGun_Launcher.label>截短式M79榴彈發射器</SS_Weapon_PirateGun_Launcher.label>
+	<SS_Weapon_PirateGun_Launcher.description>結構較簡單的縮短款古代中摺式榴彈發射器。\n\n其具備曲射能力。</SS_Weapon_PirateGun_Launcher.description>
 
-<SS_Weapon_FGC-9MKIIMini_Gun.description>一款知名的3d打印的半自動手槍\n\n其因易於製作而聞名世間。</SS_Weapon_FGC-9MKIIMini_Gun.description>
+	<!-- SS_Weapon_FGC-9MKIIMini_Gun 想不出來其名稱應該翻譯成什麽，不翻了 -->
+	<SS_Weapon_FGC-9MKIIMini_Gun.description>一款知名的3d打印的半自動手槍\n\n其因易於制作與對抗槍械管制而聞名世間。</SS_Weapon_FGC-9MKIIMini_Gun.description>
 
 
-<!--
-<SS_Weapon_XM556_Gun.label>XM556</SS_Weapon_XM556_Gun.label>
-<SS_Weapon_XM556_Gun.description>作為M134加特林的縮小版，被人稱作"Microgun"。是使用5.56x45mm NATO口徑子彈的多管轉輪機槍。</SS_Weapon_XM556_Gun.description>
--->
+
+	<SS_Weapon_20mmChargeBlasterTurret_Gun.label>20mm電荷沖擊炮</SS_Weapon_20mmChargeBlasterTurret_Gun.label>
+	<SS_Weapon_20mmChargeBlasterTurret_Gun.description>大口徑20x105mm重型穿甲電荷沖擊炮。其電荷炮彈在相當遠的射界內可造成裝甲穿透與大量傷害。但其槍管在使用後必須翻新。</SS_Weapon_20mmChargeBlasterTurret_Gun.description>
+	<SS_Building_Auto20mmChargeBlaster_Turret.label>20mm電荷沖擊炮塔</SS_Building_Auto20mmChargeBlaster_Turret.label>
+	<SS_Building_Auto20mmChargeBlaster_Turret.description>一種裝載了用於區域火力的電荷沖擊炮的炮塔，它不能嚮近距離目標射擊，損壞時可能會爆炸。</SS_Building_Auto20mmChargeBlaster_Turret.description>
+	<!--
+	<SS_Weapon_XM556_Gun.label>XM556</SS_Weapon_XM556_Gun.label>
+	<SS_Weapon_XM556_Gun.description>作為M134加特林的縮小版，被人稱作"Microgun"。是使用5.56x45mm NATO口徑子彈的多管轉輪機槍。</SS_Weapon_XM556_Gun.description>
+	-->
+
 
 <!-- # CE ========================================== -->
 
-<!-- ## SS_Gun_FNFALGL ========================================== -->
-<SS_Gun_FNFALGL.label>FN FAL + M203</SS_Gun_FNFALGL.label>
-<SS_Gun_FNFALGL.description>古代戰鬥步槍，發射全威力步槍彈藥。享有"自由世界的右手"之美譽。\n\n此版本額外下掛 M203 40x46mm口徑 榴彈發射器。</SS_Gun_FNFALGL.description>
+<!-- ## SS_Weapon_FNFALGL_Gun ========================================== -->
+	<SS_Weapon_FNFALGL_Gun.label>FN FAL + M203</SS_Weapon_FNFALGL_Gun.label>
+	<SS_Weapon_FNFALGL_Gun.description>古代戰鬥步槍，發射全威力步槍彈藥。享有"自由世界的右手"之美譽。\n\n此版本額外下掛 M203 40x46mm口徑 榴彈發射器。</SS_Weapon_FNFALGL_Gun.description>
 <!-- ## ========================================== -->
-<SS_Gun_SawedoffShotgunWithChamberAdapter.label>截短霰彈槍(彈膛適配器)</SS_Gun_SawedoffShotgunWithChamberAdapter.label>
-<SS_Gun_SawedoffShotgunWithChamberAdapter.description>截短的中折式雙管獵槍，便於隱蔽和室內使用。\n\n額外加裝的彈膛適配器使其可以發射更小口徑的子彈。\n\n\n\n"上師，這世間還有什麼東西是可以依靠的呢", "你出你入，凡毛巾和截短霰彈槍都要為你吩咐他的使者，保護你。"   *大師身後的橙黃色蠕蟲塑像似乎更加光彩奪目。*</SS_Gun_SawedoffShotgunWithChamberAdapter.description>
-
-<SS_Weapon_CouchGunWithChamberAdapter_.label>郵車槍(彈膛適配器)</SS_Weapon_CouchGunWithChamberAdapter_.label>
-<SS_Weapon_CouchGunWithChamberAdapter.description>古代截短的中折式雙管獵槍，常用於護衛驛站的郵遞馬車。\n\n額外加裝的彈膛適配器使其可以發射更小口徑的子彈。</SS_Weapon_CouchGunWithChamberAdapter.description>
-
-
+	<SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.label>截短霰彈槍(彈膛適配器)</SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.label>
+	<SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.description>截短的中摺式雙管獵槍，便於隱蔽和室內使用。\n\n額外加裝的彈膛適配器使其可以發射更小口徑的子彈。\n\n\n\n"上師，這世間還有什麽東西是可以依靠的呢", "妳出妳入，凡毛巾和截短霰彈槍都要為妳吩咐他的使者，保護妳。"   *大師身後的橙黃色蠕蟲塑像似乎更加光彩奪目。*</SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.description>
+	
+	<SS_Weapon_CouchGunWithChamberAdapter_Gun.label>郵車槍(彈膛適配器)</SS_Weapon_CouchGunWithChamberAdapter_Gun.label>
+	<SS_Weapon_CouchGunWithChamberAdapter_Gun.description>古代截短的中摺式雙管獵槍，常用於護衛驛站的郵遞馬車。\n\n額外加裝的彈膛適配器使其可以發射更小口徑的子彈。</SS_Weapon_CouchGunWithChamberAdapter_Gun.description>
 
 </LanguageData>

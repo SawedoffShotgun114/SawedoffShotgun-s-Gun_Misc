@@ -31,9 +31,9 @@
 
 <!-- =====================  ## Turret_Itself's NightVisionEfficiency(Not the Weapon)  ===================== -->
    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="SS_Building_Auto20mmChargeBlaster_Turret"]/statBases/NightVisionEfficiency_Weapon</xpath>
+        <xpath>Defs/ThingDef[defName="SS_Building_Auto20mmChargeBlaster_Turret"]/statBases</xpath>
 	    <value>
-		    <NightVisionEfficiency_Weapon>0.5</NightVisionEfficiency_Weapon>
+		    <NightVisionEfficiency>0.5</NightVisionEfficiency>
 			<AimingAccuracy>0.75</AimingAccuracy>
 	    </value>
    </Operation>
@@ -55,7 +55,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Auto20mmChargeBlaster"]/statBases/WorkToBuild</xpath>
+		<xpath>Defs/ThingDef[defName="SS_Building_Auto20mmChargeBlaster_Turret"]/statBases/WorkToBuild</xpath>
 		<value>
 			<WorkToBuild>40000</WorkToBuild>
 		</value>
@@ -107,23 +107,18 @@
 	<Operation Class="PatchOperationRemove">
 		<xpath>Defs/ThingDef[defName="SS_Building_Auto20mmChargeBlaster_Turret"]/comps/li[@Class="CompProperties_Refuelable"]</xpath> <!-- Since we reload from CE's ammo systems, we don't need vanilla's fueling system. -->
 	</Operation>
+	
+	
 <!-- Add trade tags -->
-	<Operation Class="PatchOperationConditional">
-		<xpath>Defs/ThingDef[defName="SS_Building_Auto20mmChargeBlaster_Turret"]/tradeTags</xpath>
-		<nomatch Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[defName="SS_Building_Auto20mmChargeBlaster_Turret"]</xpath>
-			<value>
-				<tradeTags />
-			</value>
-		</nomatch>
-	</Operation>
-
+<!--
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="SS_Building_Auto20mmChargeBlaster_Turret"]/tradeTags</xpath>
 		<value>
 			<li>CE_Turret</li>
 		</value>
 	</Operation>
+
+-->
 
 <!-- =====================  # TurretWeapon(WeaponMountedOnThe"TurretBase") Part  ===================== -->
 

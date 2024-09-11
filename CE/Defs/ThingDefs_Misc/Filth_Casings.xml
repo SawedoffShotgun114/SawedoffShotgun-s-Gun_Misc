@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 
+<!-- Why just cant load the filth texture correctly? windows 256 character path limit? -->
+
+
 <Defs>
 <!-- RPG-76 Casings ========================================== -->
+<![CDATA[
+
     <ThingDef ParentName="BaseFilth">
         <defName>SS_Filth_RPG-76Casings</defName>
         <label>discarded RPG-76 tube</label>
@@ -18,5 +23,7 @@
             <texPath>Things/Filth/Tex_Filth_ChargeJavelin</texPath>
         </graphicData>
     </ThingDef>
-	
+
+	]]>
 </Defs>
+

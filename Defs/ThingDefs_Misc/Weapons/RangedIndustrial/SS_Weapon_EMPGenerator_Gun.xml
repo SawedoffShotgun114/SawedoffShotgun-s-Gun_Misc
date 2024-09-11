@@ -2,13 +2,118 @@
 <Defs>
 
 
-<!-- WIP -->
+<!-- CE patch WIP -->
 
     <!-- EMP Generator ==================== -->
 
 	<!--
 	Features:
-	- Fire EMP Burst(More precise than EMP grenade)
+	 - Settings: Fire EMP Burst, rifle-like, with Bayonet.
+	 - Cause EMP damage when in melee combat, and can be used as a spear.
+
+	 - Compared to EMP Grenade:
+	   Pros: More Precise, Longer Range: 35 );
+	   Cons: Less EMP damage(Stuns less time). Can only Stun one mechanoid per shot.
+	 -
 	-->
 
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>SS_Weapon_EMPGenerator_Gun</defName>
+        <label>EMP generator</label>
+        <description>An EMP Burst Generator,fires EMP stream, stunning mechanical targets (mechanoids, turrets, mortars) and depleting shields in the area of effect.\n\n\n\n"There's a fxxking scyther come up to our Autocannon turret cluster!" *...zzzt* "Nice shot Lia Lu"</description>
+        <graphicData>
+		    <texPath>Things/Weapons/Tex_EMPGenerator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <generateCommonality>0.2</generateCommonality>
+        <weaponClasses>
+            <li>RangedLight</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>GrenadeEMP</li>
+        </weaponTags>
+        <statBases>
+            <WorkToMake>25000</WorkToMake>
+            <Mass>3.4</Mass>
+            <AccuracyTouch>0.65</AccuracyTouch>
+            <AccuracyShort>0.80</AccuracyShort>
+            <AccuracyMedium>0.90</AccuracyMedium>
+            <AccuracyLong>0.80</AccuracyLong>
+            <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>50</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+        <recipeMaker>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
+            <displayPriority>461</displayPriority>
+        </recipeMaker>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>SS_Vanilla_Bullet_EMPBurstGun</defaultProjectile>
+                <warmupTime>0.4</warmupTime> <!-- ChargeRifle is 1.0 -->
+                <range>34.9</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>Explosion_EMP</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+                <!--
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                -->
+            </li>
+        </verbs>
+
+        <!-- Melee DPS: 6.83 approx. an ikwa's DPS -->
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+
+            <!-- EMP shot 35damage; EMP melee damage 50 (In close range, EMP burst have no decay)(And that can also be considered as a bonus for brave melee warriors)  -->
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>18</power>
+                <cooldownTime>2.6</cooldownTime>
+                <extraMeleeDamages>
+                    <li>
+                        <def>EMP</def>
+                        <amount>50</amount>
+                    </li>
+                </extraMeleeDamages>
+            </li>
+            <li>
+                <label>edge</label>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>2</cooldownTime>
+                <extraMeleeDamages>
+                    <li>
+                        <def>EMP</def>
+                        <amount>50</amount>
+                    </li>
+                </extraMeleeDamages>
+            </li>
+        </tools>
+    </ThingDef>
+
+	
 </Defs>
