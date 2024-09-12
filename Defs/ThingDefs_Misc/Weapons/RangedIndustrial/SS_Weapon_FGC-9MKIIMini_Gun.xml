@@ -16,6 +16,8 @@
 		<uiIconScale>1.0</uiIconScale>
 		<soundInteract>Interact_Autopistol</soundInteract>
 	    <!-- ========================================== -->
+		
+		<generateCommonality>0.08</generateCommonality>
 		<recipeMaker>
 		  <researchPrerequisite>Machining</researchPrerequisite>
 		  <skillRequirements>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- #### HEAT explosives fragment -->
+
+  <SS_Vanilla_FragmentDamage_HEAT.label>破甲弹破片伤</SS_Vanilla_FragmentDamage_HEAT.label>
+  <SS_Vanilla_FragmentDamage_HEAT.deathMessage>{0} 被破甲弹破片射杀</SS_Vanilla_FragmentDamage_HEAT.deathMessage>
+
+
+  <!-- #### HEAT explosives -->
+
+  <SS_Damage_RPG7grenadeExplosion.label>破甲弹射流</SS_Damage_RPG7grenadeExplosion.label>
+  <SS_Damage_RPG7grenadeExplosion.deathMessage>{0} 被破甲弹射流击杀</SS_Damage_RPG7grenadeExplosion.deathMessage>
+
+
+  <!-- #### FragmentBomb explosives -->
+
+  <SS_Damage_GrenadeExplosion.label>手雷爆炸</SS_Damage_GrenadeExplosion.label>
+  <SS_Damage_GrenadeExplosion.deathMessage>{0} 被手雷弹破片与爆炸杀伤</SS_Damage_GrenadeExplosion.deathMessage>
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- # SawedoffShotgunWithChamberAdapter(CE only) -->
+
+  <SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.label>sawed-off shotgun with chamber adapter</SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.label>
+  <SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.description>A double-barreled old-old-school break-action sawedoffshotgun with chamber adapter.\n\nChamber adapter give it the ability to use various lower-caliber ammo.\n\n\n\nOne kind of the most massively useful thing an interstellar colonist can carry.</SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.description>
+  <SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.tools.0.label>grip</SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.tools.0.label>
+  <SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.tools.1.label>muzzle</SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.tools.1.label>
+
+
+</LanguageData>

@@ -15,7 +15,7 @@
 			<drawSize>0.75</drawSize>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
-        <generateCommonality>0.3</generateCommonality>
+        <generateCommonality>0.2</generateCommonality>
         <weaponClasses>
             <li>RangedHeavy</li>
         </weaponClasses>

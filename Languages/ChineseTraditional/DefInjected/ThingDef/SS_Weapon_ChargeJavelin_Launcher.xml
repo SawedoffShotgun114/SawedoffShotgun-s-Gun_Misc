@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- # Note: Anti-LightArmor(Centipede(IFV-like)),85armorpenetration, 300damage→2 shot 1 centipede, but not so efficient in anti-personnel task(only 0.8 explode radius). single-use -->
+
+  <SS_Weapon_ChargeJavelin_Launcher.label>電荷投鎗</SS_Weapon_ChargeJavelin_Launcher.label>
+  <SS_Weapon_ChargeJavelin_Launcher.description>一種一次性使用的反裝甲電荷標鎗武器的輕量化變體，增強了威力與侵徹能力，但代價是縮小射程，其爲發射高能電荷標鎗彈的軌道加速武器。在每一髮超高速子彈離開加速軌道之前以不穩定能量對牠進行充能。\n\n其設計意在爲太空戰塲上的士兵提供緊湊便攜的反裝甲武器。而爲了增強這種武器在穿甲方面的性能，其過載充能會導緻其內部關鍵部件熔燬，囙而其爲一次性武器。\n\n\n\n囙其便攜性，有些太空馬潤還會調侃說自己拿了個"手電筩"</SS_Weapon_ChargeJavelin_Launcher.description>
+  <SS_Weapon_ChargeJavelin_Launcher.tools.0.label>鎗管</SS_Weapon_ChargeJavelin_Launcher.tools.0.label>
+
+
+</LanguageData>

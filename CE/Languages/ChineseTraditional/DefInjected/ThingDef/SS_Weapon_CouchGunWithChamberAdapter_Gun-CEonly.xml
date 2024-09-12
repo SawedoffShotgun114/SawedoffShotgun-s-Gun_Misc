@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- # CouchGunWithChamberAdapter(CE only) -->
+
+  <SS_Weapon_CouchGunWithChamberAdapter_Gun.label>couchgun with chamber adapter</SS_Weapon_CouchGunWithChamberAdapter_Gun.label>
+  <SS_Weapon_CouchGunWithChamberAdapter_Gun.description>A double-barreled old-old-school break-action shotgun with chamber adapter.\n\nChamber adapter give it the ability to use various lower-caliber ammo.</SS_Weapon_CouchGunWithChamberAdapter_Gun.description>
+  <SS_Weapon_CouchGunWithChamberAdapter_Gun.tools.0.label>grip</SS_Weapon_CouchGunWithChamberAdapter_Gun.tools.0.label>
+  <SS_Weapon_CouchGunWithChamberAdapter_Gun.tools.1.label>muzzle</SS_Weapon_CouchGunWithChamberAdapter_Gun.tools.1.label>
+
+
+</LanguageData>

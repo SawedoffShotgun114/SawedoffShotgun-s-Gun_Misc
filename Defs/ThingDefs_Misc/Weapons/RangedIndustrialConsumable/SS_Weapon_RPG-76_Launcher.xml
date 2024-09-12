@@ -27,7 +27,8 @@
 	<soundDrop>Standard_Drop</soundDrop>
     <!-- ======================================== -->
     <techLevel>Industrial</techLevel>
-
+	<generateCommonality>0.1</generateCommonality>
+	
     <statBases>
       <Mass>2.1</Mass>
       <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>

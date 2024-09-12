@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- # FN FAL + M203 -->
+
+  <SS_Weapon_FNFALGL_Gun.label>FN FAL + M203</SS_Weapon_FNFALGL_Gun.label>
+  <SS_Weapon_FNFALGL_Gun.description>Ancient military battle rifle firing a full-power rifle cartridge. Famous for being the right hand of the free world. With an underbarrel M203 40mm grenade launcher.</SS_Weapon_FNFALGL_Gun.description>
+  <SS_Weapon_FNFALGL_Gun.tools.0.label>stock</SS_Weapon_FNFALGL_Gun.tools.0.label>
+  <SS_Weapon_FNFALGL_Gun.tools.1.label>barrel</SS_Weapon_FNFALGL_Gun.tools.1.label>
+  <SS_Weapon_FNFALGL_Gun.tools.2.label>muzzle</SS_Weapon_FNFALGL_Gun.tools.2.label>
+
+
+</LanguageData>

@@ -11,6 +11,8 @@
 	  <drawSize>0.8</drawSize>
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
+	
+	<generateCommonality>0.08</generateCommonality>
     <weaponClasses>
       <li>ShortShots</li>
     </weaponClasses>

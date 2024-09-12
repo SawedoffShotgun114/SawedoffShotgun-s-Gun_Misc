@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ChargeJavelin x5 -->
+
+  <MakeChargeJavelin_x5.label>制作 電荷投槍 x5</MakeChargeJavelin_x5.label>
+  <MakeChargeJavelin_x5.description>制作 5個 電荷投槍</MakeChargeJavelin_x5.description>
+  <MakeChargeJavelin_x5.jobString>正在制作 電荷投槍</MakeChargeJavelin_x5.jobString>
+
+
+  <!-- Author: Intentionally make that recipe don't need ComponentSpacer, at the cost of 5 componentIndustrial per Javelin -->
+
+  <MakeChargeJavelin_x2.label>制作 電荷投槍 x2</MakeChargeJavelin_x2.label>
+  <MakeChargeJavelin_x2.description>制作 2個 電荷投槍</MakeChargeJavelin_x2.description>
+  <MakeChargeJavelin_x2.jobString>正在制作 電荷投槍</MakeChargeJavelin_x2.jobString>
+
+
+</LanguageData>

@@ -6,7 +6,7 @@
 <ThingDef ParentName="BaseGun">
 	<defName>SS_Weapon_ChargeJavelin_Launcher</defName>
 	<label>charge javelin</label>
-    <description>A lightweight single-use anti-tank pulse-charged rail-assisted lance weapon variation. It fires a single shot at high velocity, charging it with unstable energy as it leaves the acceleration raillauncher. Designed to provide soldiers in the field with a compact anti-armor weapon. To enhance that lance variation's performance in armor-piercing, it designed with some overcharge tech, make it a single-use weapon.</description>
+    <description>A lightweight single-use anti-tank pulse-charged rail-assisted lance weapon variation,with increased destructive capability and Armor-pierce ability, at the expense of reduced firing range. It fires a single shot at high velocity, charging it with unstable energy as it leaves the acceleration raillauncher. Designed to provide soldiers in the field with a compact anti-armor weapon. To enhance that lance variation's performance in armor-piercing, it designed with some overcharge tech, make it a single-use weapon./n/n/n/nSome Space Marines even joke that they have a "Flashlight" with them, as its good portability.</description>
 
     <smeltable>false</smeltable>
     <graphicData>

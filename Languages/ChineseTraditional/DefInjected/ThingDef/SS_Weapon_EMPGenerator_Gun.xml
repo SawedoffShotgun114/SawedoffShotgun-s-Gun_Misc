@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Features:
+	 - Settings: Fire EMP Burst, rifle-like, with Bayonet.
+	 - Cause EMP damage when in melee combat, and can be used as a spear.
+
+	 - Compared to EMP Grenade:
+	   Pros: More Precise, Longer Range: 35 );
+	   Cons: Less EMP damage(Stuns less time). Can only Stun one mechanoid per shot.
+	 - -->
+
+  <SS_Weapon_EMPGenerator_Gun.label>EMP發生器</SS_Weapon_EMPGenerator_Gun.label>
+  <SS_Weapon_EMPGenerator_Gun.description>EMP發生器會釋放出一股電磁能量流。可癱瘓機械目標（機械體、砲塔、迫擊砲）以及耗盡範圍內護盾的能量。\n\n\n\n"媽的，有臺飛螳進咱傢自働砲堆裏了!" *一輪強勁的電流響起* "神鎗手啊，LiaLu"</SS_Weapon_EMPGenerator_Gun.description>
+  <SS_Weapon_EMPGenerator_Gun.tools.0.label>stock</SS_Weapon_EMPGenerator_Gun.tools.0.label>
+  <SS_Weapon_EMPGenerator_Gun.tools.1.label>head</SS_Weapon_EMPGenerator_Gun.tools.1.label>
+  <SS_Weapon_EMPGenerator_Gun.tools.2.label>edge</SS_Weapon_EMPGenerator_Gun.tools.2.label>
+
+
+</LanguageData>

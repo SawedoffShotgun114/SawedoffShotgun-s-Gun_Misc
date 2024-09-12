@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Reference: Wikipedia, USspecialOps, etc. -->
+
+  <SS_Weapon_PirateGun_Launcher.label>截短式M79榴彈發射器</SS_Weapon_PirateGun_Launcher.label>
+  <SS_Weapon_PirateGun_Launcher.description>結構較簡單的縮短款古代中摺式榴彈發射器。\n\n其具備曲射能力。</SS_Weapon_PirateGun_Launcher.description>
+  <SS_Weapon_PirateGun_Launcher.tools.0.label>鎗託</SS_Weapon_PirateGun_Launcher.tools.0.label>
+  <SS_Weapon_PirateGun_Launcher.tools.1.label>鎗管</SS_Weapon_PirateGun_Launcher.tools.1.label>
+
+
+</LanguageData>

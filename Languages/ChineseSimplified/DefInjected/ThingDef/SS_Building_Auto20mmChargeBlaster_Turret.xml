@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ## TurretBase(Turret_Itself) Part -->
+
+  <SS_Building_Auto20mmChargeBlaster_Turret.label>20mm电荷冲击炮塔</SS_Building_Auto20mmChargeBlaster_Turret.label>
+  <SS_Building_Auto20mmChargeBlaster_Turret.description>一种装载了用于区域火力的电荷冲击炮的炮塔，它不能向近距离目标射击，损坏时可能会爆炸。</SS_Building_Auto20mmChargeBlaster_Turret.description>
+  <SS_Building_Auto20mmChargeBlaster_Turret_Blueprint.label>20mm电荷冲击炮塔 (蓝图)</SS_Building_Auto20mmChargeBlaster_Turret_Blueprint.label>
+  <SS_Building_Auto20mmChargeBlaster_Turret_Frame.label>20mm电荷冲击炮塔 (建造中)</SS_Building_Auto20mmChargeBlaster_Turret_Frame.label>
+  <SS_Building_Auto20mmChargeBlaster_Turret_Frame.description>一种装载了用于区域火力的使用穿透能力强的20x105mm电荷炮弹的电荷冲击炮的炮塔，射程较远。其枪管在使用后必须翻新。且它不能向近距离目标射击，损坏时可能会爆炸。</SS_Building_Auto20mmChargeBlaster_Turret_Frame.description>
+
+
+  <!-- ## TurretWeapon(WeaponMountedOnThe"TurretBase") Part -->
+
+  <SS_Weapon_20mmChargeBlasterTurret_Gun.label>20mm电荷冲击炮</SS_Weapon_20mmChargeBlasterTurret_Gun.label>
+  <SS_Weapon_20mmChargeBlasterTurret_Gun.description>大口径20x105mm重型穿甲电荷冲击炮。其电荷炮弹在相当远的射界内可造成装甲穿透与大量伤害。但其枪管在使用后必须翻新。</SS_Weapon_20mmChargeBlasterTurret_Gun.description>
+
+
+</LanguageData>
