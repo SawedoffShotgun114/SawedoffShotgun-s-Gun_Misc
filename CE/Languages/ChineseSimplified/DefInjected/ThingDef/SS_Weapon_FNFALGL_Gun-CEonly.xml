@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- # FN FAL + M203 -->
+
+  <SS_Weapon_FNFALGL_Gun.label>FN FAL + M203</SS_Weapon_FNFALGL_Gun.label>
+  <SS_Weapon_FNFALGL_Gun.description>古代战斗步枪，发射全威力步枪弹药。享有"自由世界的右手"之美誉。\n\n此版本额外下挂 M203 40x46mm口径 榴弹发射器。</SS_Weapon_FNFALGL_Gun.description>
+
+  <SS_Weapon_FNFALGL_Gun.tools.0.label>枪托</SS_Weapon_FNFALGL_Gun.tools.0.label>
+  <SS_Weapon_FNFALGL_Gun.tools.1.label>枪管</SS_Weapon_FNFALGL_Gun.tools.1.label>
+  <SS_Weapon_FNFALGL_Gun.tools.2.label>枪口</SS_Weapon_FNFALGL_Gun.tools.2.label>
+
+
+</LanguageData>

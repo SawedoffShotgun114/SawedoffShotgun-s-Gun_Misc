@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- # CouchGunWithChamberAdapter(CE only) -->
+
+ 
+    <SS_Weapon_CouchGunWithChamberAdapter_Gun.label>邮车枪(弹膛适配器)</SS_Weapon_CouchGunWithChamberAdapter_Gun.label>
+  <SS_Weapon_CouchGunWithChamberAdapter_Gun.description>古代一种中折式双管猎枪，常用于护卫驿站的邮递马车。\n\n额外加装的弹膛适配器使其可以发射更小口径的子弹。</SS_Weapon_CouchGunWithChamberAdapter_Gun.description>
+  
+  <SS_Weapon_CouchGunWithChamberAdapter_Gun.tools.0.label>枪托</SS_Weapon_CouchGunWithChamberAdapter_Gun.tools.0.label>
+  <SS_Weapon_CouchGunWithChamberAdapter_Gun.tools.1.label>枪口</SS_Weapon_CouchGunWithChamberAdapter_Gun.tools.1.label>
+
+
+</LanguageData>

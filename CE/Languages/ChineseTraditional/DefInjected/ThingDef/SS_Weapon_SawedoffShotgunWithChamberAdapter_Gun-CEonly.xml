@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- # SawedoffShotgunWithChamberAdapter(CE only) -->
+
+  <SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.label>截短霰彈槍(彈膛適配器)</SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.label>
+  <SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.description>截短的中摺式雙管獵槍，便於隱蔽和室內使用。\n\n額外加裝的彈膛適配器使其可以發射更小口徑的子彈。\n\n\n\n"上師，這世間還有什麽東西是可以依靠的呢", "你齣你入，凡毛巾和截短霰彈槍都要爲你吩咐他的使者，保護你。"</SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.description>
+  
+  <SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.tools.0.label>握把</SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.tools.0.label>
+  <SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.tools.1.label>槍口</SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.tools.1.label>
+
+
+</LanguageData>

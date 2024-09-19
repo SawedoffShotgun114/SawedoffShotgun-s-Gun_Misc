@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Make_SS_Weapon_CouchGunWithChamberAdapter_Gun.label>製作 郵車槍(彈膛適配器)</Make_SS_Weapon_CouchGunWithChamberAdapter_Gun.label>
+  <Make_SS_Weapon_CouchGunWithChamberAdapter_Gun.description>製作 郵車槍(彈膛適配器)</Make_SS_Weapon_CouchGunWithChamberAdapter_Gun.description>
+  <Make_SS_Weapon_CouchGunWithChamberAdapter_Gun.jobString>正在製作 郵車槍(彈膛適配器)</Make_SS_Weapon_CouchGunWithChamberAdapter_Gun.jobString>
+
+  <Make_SS_Weapon_FNFALGL_Gun.label>製作 FN FAL + M203</Make_SS_Weapon_FNFALGL_Gun.label>
+  <Make_SS_Weapon_FNFALGL_Gun.description>製作 FN FAL + M203</Make_SS_Weapon_FNFALGL_Gun.description>
+  <Make_SS_Weapon_FNFALGL_Gun.jobString>正在製作 FN FAL + M203</Make_SS_Weapon_FNFALGL_Gun.jobString>
+
+  <Make_SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.label>製作 截短霰彈槍(彈膛適配器)</Make_SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.label>
+  <Make_SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.description>製作 截短霰彈槍(彈膛適配器)</Make_SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.description>
+  <Make_SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.jobString>正在製作 截短霰彈槍(彈膛適配器)</Make_SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.jobString>
+
+
+</LanguageData>
