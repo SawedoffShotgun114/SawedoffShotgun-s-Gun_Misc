@@ -122,7 +122,7 @@
  - 20240904 v1.0.2.1-rc
    - EMPGenerator's ammo settings in CE.
    - RPG-76 texture's quality improved.
- - 20240904 v1.0.2.5-rc
+ - 202409015 v1.0.2.5-rc
    - Stat tweak
    - Translation update
 
