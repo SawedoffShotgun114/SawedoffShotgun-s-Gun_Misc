@@ -23,7 +23,7 @@
 ------------------------------------------
 
  - Since 20240718
- - Version: 1.0.2.1 (Rimworld 1.5/1.4 support)
+ - Version: 1.0.2.5 (Rimworld 1.5/1.4 support)
 
 ## Description:
 
@@ -122,6 +122,9 @@
  - 20240904 v1.0.2.1-rc
    - EMPGenerator's ammo settings in CE.
    - RPG-76 texture's quality improved.
+ - 20240904 v1.0.2.5-rc
+   - Stat tweak
+   - Translation update
 
 ## Reference:
  - Бесполезная помощь: польская реактивная противотанковая граната RPG-76 Komar. (2022). Военное Обозрение. Retrieved from https://topwar.ru/193496-bespoleznaja-pomosch-reaktivnaja-protivotankovaja-granata-rpg-76-komar-polsha.html
@@ -139,7 +142,7 @@
  - (Backlog) Benelli Xrail (23 round semi-auto shotgun)
  - (Backlog) Type 79 mini RocketLauncher (1.7kg, as small as a bottle of water, 150RHA?(at least 100RHA in 65° angle), 60m maximum effective range ,M72LAW is 165m) (Improvise, Cheap, Flexible) (70mm caliber)
 
-## Acknowledgement:    
+## Acknowledgement: (In no particular order)    
  - **!! All community contributors and You - Love, Mental stimulation and support, Test and Feedback !!**    
  - **[!! Tonas (Combat Extended Launcher's author) - refered to some of his/her "BalanceNotes.txt" and inspired the author !! (Click here to visit their sites)](https://steamcommunity.com/sharedfiles/filedetails/?id=2919231977)**    
 
@@ -148,7 +151,7 @@
 
 ## License:
   Rimworld is owned by Tynan Sylvester.    
-  (CC BY-NC-ND 4.0)    
+  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">CEHDDPS</span> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://mailto:youngturksfree@outlook.com">SawedoffShotgun</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0 (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>    
 
 ## Links/Contacts: (If you have any questions, please Email me.)
  Contact Information:    

@@ -131,7 +131,7 @@
  - （积压）Benelli Xrail（23发半自动霰弹枪）
  - （积压）79型手持火箭发射器（1.7 公斤，和一瓶矿泉水差不多大，150RHA？（在65°角度下至少 100RHA），60m 最大有效射程，M72LAW 为 165m）（临时用品，便宜，灵活）（70mm 口径） 
 
-## 致谢:
+## 致谢: （排名不分先后）
  - **!! 感谢所有社区贡献者与社区享受者，和您 - 鼓励支持与bug反馈 !!**
  - **[!! Tonas ("Combat Extended Launcher"的作者) - 参考了他/她写的 "BalanceNotes.txt"的数据， 当然也有启发到鄙人 !! (点此访问他们的页面)](https://steamcommunity.com/sharedfiles/filedetails/?id=2919231977)**
 
@@ -140,7 +140,7 @@
 
 ## 版权/许可:    
  Rimworld is owned by Tynan Sylvester.    
- (CC BY-NC-ND 4.0)    
+ <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">CEHDDPS</span> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://mailto:youngturksfree@outlook.com">SawedoffShotgun</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0 (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>    
 
 ## 联系方式: (如遇问题，请联系作者电子邮箱)
  联系方式:    
