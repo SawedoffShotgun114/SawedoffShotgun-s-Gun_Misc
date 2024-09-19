@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- # CE ========================================== -->
+
+  <!-- ## SS_Weapon_FNFALGL_Gun ========================================== -->
+  <SS_Weapon_FNFALGL_Gun.label>FN FAL + M203</SS_Weapon_FNFALGL_Gun.label>
+  <SS_Weapon_FNFALGL_Gun.description>古代戰鬥步槍，發射全威力步槍彈藥。享有"自由世界的右手"之美譽。\n\n此版本額外下掛 M203 40x46mm口徑 榴彈發射器。</SS_Weapon_FNFALGL_Gun.description>
+  <!-- ## ========================================== -->
+  <SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.label>截短霰彈槍(彈膛適配器)</SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.label>
+  <SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.description>截短的中摺式雙管獵槍，便於隱蔽和室內使用。\n\n額外加裝的彈膛適配器使其可以發射更小口徑的子彈。\n\n\n\n"上師，這世間還有什麽東西是可以依靠的呢", "妳出妳入，凡毛巾和截短霰彈槍都要為妳吩咐他的使者，保護妳。"   *大師身後的橙黃色蠕蟲塑像似乎更加光彩奪目。*</SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.description>
+
+  <SS_Weapon_CouchGunWithChamberAdapter_Gun.label>郵車槍(彈膛適配器)</SS_Weapon_CouchGunWithChamberAdapter_Gun.label>
+  <SS_Weapon_CouchGunWithChamberAdapter_Gun.description>古代截短的中摺式雙管獵槍，常用於護衛驛站的郵遞馬車。\n\n額外加裝的彈膛適配器使其可以發射更小口徑的子彈。</SS_Weapon_CouchGunWithChamberAdapter_Gun.description>
+
+</LanguageData>

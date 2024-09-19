@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- #### Bullet_22LR_FMJ (.22 LR FMJ) (StatReference: IRL(i.e. SurvivorRifle, etc. IRL)) -->
+
+  <SS_Vanilla_Bullet_22LR_FMJ.label>.22 LR 全金属被甲弹(FMJ) 子弹</SS_Vanilla_Bullet_22LR_FMJ.label>
+
+
+  <!-- #### Bullet_9x19mmPara_FMJ (9x19mm Para FMJ) (StatReference: Bullet_MachinePistol InGame(i.e. Tec9 IRL)) -->
+
+  <SS_Vanilla_Bullet_9x19mmPara_FMJ.label>9x19mm Para 全金属被甲弹(FMJ) 子弹</SS_Vanilla_Bullet_9x19mmPara_FMJ.label>
+
+
+  <!-- #### Bullet_9x19mmParaSD_FMJ (9x19mm Para Subsonic FMJ) (StatReference: Bullet_MachinePistol InGame(i.e. Tec9 IRL)) -->
+
+  <SS_Vanilla_Bullet_9x19mmParaSD_FMJ.label>9x19mm Para亚音速 全金属被甲弹(FMJ) bullet</SS_Vanilla_Bullet_9x19mmParaSD_FMJ.label>
+
+
+  <!-- #### Bullet_45ACP_FMJ (.45ACP FMJ) (StatReference:(Maybe...) Bullet_HeavySMG InGame(i.e. Sorry, IDK what Vanilla's HeavySMG corresponds to IRL)) -->
+
+  <SS_Vanilla_Bullet_45ACP_FMJ.label>.45ACP 全金属被甲弹(FMJ) bullet</SS_Vanilla_Bullet_45ACP_FMJ.label>
+
+
+  <!-- #### (Obsolete?)   Bullet_5.56mx45NATO_FMJ (5.56x45mm NATO FMJ) as snipper...? (StatReference:(Maybe...) Bullet_HeavySMG InGame(i.e. Sorry, IDK what Vanilla's HeavySMG corresponds to IRL)) -->
+
+  <SS_Vanilla_Bullet_556x45mmNATO_FMJ.label>5.56x45mm NATO 全金属被甲弹(FMJ) bullet</SS_Vanilla_Bullet_556x45mmNATO_FMJ.label>
+
+
+  <!-- ####(Thanks CE) Bullet_20x105mmCharged_AP (A high-caliber anti-material ammo) -->
+
+  <SS_Vanilla_Bullet_20x105mmCharged_AP.label>20x105mm 聚能电荷弹(conc.) 电荷冲击炮用弹</SS_Vanilla_Bullet_20x105mmCharged_AP.label>
+
+
+  <!-- #### Bullet_12Gauge_Buck   (StatReference:(Maybe...(i.e. ...))(Compared to Vanilla, Author buffed the shotgun's damage, but nuffed the armor-penetration ability) -->
+
+  <SS_Vanilla_Bullet_12Gauge_Buck.label>12號鹿弹</SS_Vanilla_Bullet_12Gauge_Buck.label>
+
+
+  <!-- #### SS_Vanilla_Bullet_EMPBurstGun -->
+
+  <SS_Vanilla_Bullet_EMPBurstGun.label>EMP 射流</SS_Vanilla_Bullet_EMPBurstGun.label>
+
+
+  <!-- #### Bullet_ChargeJavelin  (chagrejavelin overcharged 20x105mm chargedAP Projectile's Def) -->
+
+  <SS_Vanilla_Bullet_ChargeJavelin.label>电荷投枪 电荷_原版</SS_Vanilla_Bullet_ChargeJavelin.label>
+
+
+  <!-- #### Bullet_RPG-76  (RPG-76 HEAT Rocket Projectile's Def) -->
+
+  <SS_Vanilla_Bullet_RPG-76Grenade_HEAT.label>RPG-76 高爆破甲弹(HEAT)_原版</SS_Vanilla_Bullet_RPG-76Grenade_HEAT.label>
+
+
+  <!-- #### Bullet_40x46mmGrenade_HE (40x46mm grenade High-Explosive ; can anti-personnel) (StatReference:(...) FragGrenade InGame(but less damage) (i.e. ...)) -->
+
+  <SS_Vanilla_Bullet_40x46mmGrenade_HE.label>40x46mm 榴弹 高爆弹(HE)</SS_Vanilla_Bullet_40x46mmGrenade_HE.label>
+
+
+  <!-- #### Bullet_RPG7Grenade_HEAT (RPG-7 HEAT) (May use as universal HEAT rocket ammo) -->
+
+  <SS_Vanilla_Bullet_RPG7Grenade_HEAT.label>RPG-7 高爆破甲弹(HEAT)</SS_Vanilla_Bullet_RPG7Grenade_HEAT.label>
+
+
+</LanguageData>

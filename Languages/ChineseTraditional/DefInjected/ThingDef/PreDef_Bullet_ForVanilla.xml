@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- #### Bullet_22LR_FMJ (.22 LR FMJ) (StatReference: IRL(i.e. SurvivorRifle, etc. IRL)) -->
+
+  <SS_Vanilla_Bullet_22LR_FMJ.label>.22 LR 全金屬被甲彈(FMJ) 子彈</SS_Vanilla_Bullet_22LR_FMJ.label>
+
+
+  <!-- #### Bullet_9x19mmPara_FMJ (9x19mm Para FMJ) (StatReference: Bullet_MachinePistol InGame(i.e. Tec9 IRL)) -->
+
+  <SS_Vanilla_Bullet_9x19mmPara_FMJ.label>9x19mm Para 全金屬被甲彈(FMJ) 子彈</SS_Vanilla_Bullet_9x19mmPara_FMJ.label>
+
+
+  <!-- #### Bullet_9x19mmParaSD_FMJ (9x19mm Para Subsonic FMJ) (StatReference: Bullet_MachinePistol InGame(i.e. Tec9 IRL)) -->
+
+  <SS_Vanilla_Bullet_9x19mmParaSD_FMJ.label>9x19mm Para亞音速 全金屬被甲彈(FMJ) bullet</SS_Vanilla_Bullet_9x19mmParaSD_FMJ.label>
+
+
+  <!-- #### Bullet_45ACP_FMJ (.45ACP FMJ) (StatReference:(Maybe...) Bullet_HeavySMG InGame(i.e. Sorry, IDK what Vanilla's HeavySMG corresponds to IRL)) -->
+
+  <SS_Vanilla_Bullet_45ACP_FMJ.label>.45ACP 全金屬被甲彈(FMJ) bullet</SS_Vanilla_Bullet_45ACP_FMJ.label>
+
+
+  <!-- #### (Obsolete?)   Bullet_5.56mx45NATO_FMJ (5.56x45mm NATO FMJ) as snipper...? (StatReference:(Maybe...) Bullet_HeavySMG InGame(i.e. Sorry, IDK what Vanilla's HeavySMG corresponds to IRL)) -->
+
+  <SS_Vanilla_Bullet_556x45mmNATO_FMJ.label>5.56x45mm NATO 全金屬被甲彈(FMJ) bullet</SS_Vanilla_Bullet_556x45mmNATO_FMJ.label>
+
+
+  <!-- ####(Thanks CE) Bullet_20x105mmCharged_AP (A high-caliber anti-material ammo) -->
+
+  <SS_Vanilla_Bullet_20x105mmCharged_AP.label>20mm 聚能電荷彈(conc.) 電荷衝擊砲用彈</SS_Vanilla_Bullet_20x105mmCharged_AP.label>
+
+
+  <!-- #### Bullet_12Gauge_Buck   (StatReference:(Maybe...(i.e. ...))(Compared to Vanilla, Author buffed the shotgun's damage, but nuffed the armor-penetration ability) -->
+
+  <SS_Vanilla_Bullet_12Gauge_Buck.label>12号鹿彈</SS_Vanilla_Bullet_12Gauge_Buck.label>
+
+
+  <!-- #### SS_Vanilla_Bullet_EMPBurstGun -->
+
+  <SS_Vanilla_Bullet_EMPBurstGun.label>EMP 射流</SS_Vanilla_Bullet_EMPBurstGun.label>
+
+
+  <!-- #### Bullet_ChargeJavelin  (chagrejavelin overcharged 20x105mm chargedAP Projectile'

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Author: Sorry to use vanilla DoomsdayLauncher sound -->
+
+  <SS_Weapon_RPG-76_Launcher.label>RPG-76 火箭發射器</SS_Weapon_RPG-76_Launcher.label>
+  <SS_Weapon_RPG-76_Launcher.description>發射反坦克破甲彈的一次性火箭發射器。\n\n這種武器比傳統的RPG-7或M72LAW更小更輕，專為空降部隊設計，且其因設計上粗糙簡陋而價廉。\n\n\n\n“但是在"除蟲"時很好使，不過這玩意得架在肩上使，別教那尾焰把妳頭發絲(sei)點著了。”一位不願透漏姓名的古代士兵評價道。</SS_Weapon_RPG-76_Launcher.description>
+  <SS_Weapon_RPG-76_Launcher.tools.0.label>砲管
+</SS_Weapon_RPG-76_Launcher.tools.0.label>
+
+
+</LanguageData>

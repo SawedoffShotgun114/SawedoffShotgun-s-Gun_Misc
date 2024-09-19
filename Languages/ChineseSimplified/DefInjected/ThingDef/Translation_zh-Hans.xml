@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- # CE ========================================== -->
+
+  <!-- ## SS_Weapon_FNFALGL_Gun ========================================== -->
+  <SS_Weapon_FNFALGL_Gun.label>FN FAL + M203</SS_Weapon_FNFALGL_Gun.label>
+  <SS_Weapon_FNFALGL_Gun.description>古代战斗步枪，发射全威力步枪弹药。享有"自由世界的右手"之美誉。\n\n此版本额外下挂 M203 40x46mm口径 榴弹发射器。</SS_Weapon_FNFALGL_Gun.description>
+
+  <SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.label>截短霰弹枪(弹膛适配器)</SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.label>
+  <SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.description>截短的中折式双管猎枪，便于隐蔽和室内使用。\n\n额外加装的弹膛适配器使其可以发射更小口径的子弹。\n\n\n\n"上师，这世间还有什么东西是可以依靠的呢", "你出你入，凡毛巾和截短霰弹枪都要为你吩咐他的使者，保护你。"</SS_Weapon_SawedoffShotgunWithChamberAdapter_Gun.description>
+  
+  <SS_Weapon_CouchGunWithChamberAdapter_Gun.label>邮车枪(弹膛适配器)</SS_Weapon_CouchGunWithChamberAdapter_Gun.label>
+  <SS_Weapon_CouchGunWithChamberAdapter_Gun.description>古代截短的中折式双管猎枪，常用于护卫驿站的邮递马车。\n\n额外加装的弹膛适配器使其可以发射更小口径的子弹。</SS_Weapon_CouchGunWithChamberAdapter_Gun.description>
+</LanguageData>

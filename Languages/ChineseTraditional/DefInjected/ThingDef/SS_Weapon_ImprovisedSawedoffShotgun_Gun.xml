@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SS_Weapon_ImprovisedSawedoffShotgun_Gun.label>簡易短管霰彈槍</SS_Weapon_ImprovisedSawedoffShotgun_Gun.label>
+  <SS_Weapon_ImprovisedSawedoffShotgun_Gun.description>古代的各類利用手邊材料DIY的短霰彈槍，因其輕巧便攜與制造簡單，而在一些槍械管制較嚴格的中寰世界被用於執行刺殺任務，甚至有些人會選擇裝填上古時期的黑火藥。\n\n其結構簡陋或者說是便於制造，且威力不容小覷。</SS_Weapon_ImprovisedSawedoffShotgun_Gun.description>
+  <SS_Weapon_ImprovisedSawedoffShotgun_Gun.tools.0.label>鎗握柄</SS_Weapon_ImprovisedSawedoffShotgun_Gun.tools.0.label>
+  <SS_Weapon_ImprovisedSawedoffShotgun_Gun.tools.1.label>鎗管</SS_Weapon_ImprovisedSawedoffShotgun_Gun.tools.1.label>
+
+
+</LanguageData>

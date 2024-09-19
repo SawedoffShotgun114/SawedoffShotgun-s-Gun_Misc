@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- RPG-76 x5 -->
+
+  <MakeRPG-76_x5.label>制作 RPG-76火箭发射器 x5</MakeRPG-76_x5.label>
+  <MakeRPG-76_x5.description>制作 5个 RPG-76火箭发射器</MakeRPG-76_x5.description>
+  <MakeRPG-76_x5.jobString>正在制作 RPG-76火箭发射器</MakeRPG-76_x5.jobString>
+
+
+  <!-- RPG-76 x1 -->
+
+  <MakeRPG-76_x1.label>制作 RPG-76火箭发射器 x1</MakeRPG-76_x1.label>
+  <MakeRPG-76_x1.description>制作 1个 RPG-76火箭发射器</MakeRPG-76_x1.description>
+  <MakeRPG-76_x1.jobString>正在制作 RPG-76火箭发射器</MakeRPG-76_x1.jobString>
+
+
+</LanguageData>

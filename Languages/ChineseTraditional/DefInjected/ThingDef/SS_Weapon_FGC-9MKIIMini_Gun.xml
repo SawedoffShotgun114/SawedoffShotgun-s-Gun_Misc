@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- # Note: Crazy cheap and WorkToMake:Autopistol's 0.56 . And so flexible -->
+
+  <SS_Weapon_FGC-9MKIIMini_Gun.label>FGC-9 MKII Mini</SS_Weapon_FGC-9MKIIMini_Gun.label>
+  <SS_Weapon_FGC-9MKIIMini_Gun.description>一欵知名的3d打印的半自働手鎗\n\n其囙易於製作與對抗鎗械管製而聞名世間。</SS_Weapon_FGC-9MKIIMini_Gun.description>
+  <SS_Weapon_FGC-9MKIIMini_Gun.tools.0.label>鎗握柄</SS_Weapon_FGC-9MKIIMini_Gun.tools.0.label>
+  <SS_Weapon_FGC-9MKIIMini_Gun.tools.1.label>鎗管</SS_Weapon_FGC-9MKIIMini_Gun.tools.1.label>
+
+
+</LanguageData>

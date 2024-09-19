@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ## TurretBase(Turret_Itself) Part -->
+
+  <SS_Building_Auto20mmChargeBlaster_Turret.label>20mm電荷衝擊砲塔</SS_Building_Auto20mmChargeBlaster_Turret.label>
+  <SS_Building_Auto20mmChargeBlaster_Turret.description>一種裝載了用於區域火力的電荷衝擊砲的砲塔，牠不能嚮近距離目標射擊，損壞時可能會爆炸。</SS_Building_Auto20mmChargeBlaster_Turret.description>
+  <SS_Building_Auto20mmChargeBlaster_Turret_Blueprint.label>20mm電荷衝擊砲塔 (藍圖)</SS_Building_Auto20mmChargeBlaster_Turret_Blueprint.label>
+  <SS_Building_Auto20mmChargeBlaster_Turret_Frame.label>20mm電荷衝擊砲塔 (建造中)</SS_Building_Auto20mmChargeBlaster_Turret_Frame.label>
+  <SS_Building_Auto20mmChargeBlaster_Turret_Frame.description>一種裝載了用於區域火力的使用穿透能力強的20x105mm電荷砲彈的電荷衝擊砲的砲塔，射程較遠。其鎗管在使用後必鬚繙新。且牠不能嚮近距離目標射擊，損壞時可能會爆炸。</SS_Building_Auto20mmChargeBlaster_Turret_Frame.description>
+
+
+  <!-- ## TurretWeapon(WeaponMountedOnThe"TurretBase") Part -->
+
+  <SS_Weapon_20mmChargeBlasterTurret_Gun.label>20mm電荷衝擊砲</SS_Weapon_20mmChargeBlasterTurret_Gun.label>
+  <SS_Weapon_20mmChargeBlasterTurret_Gun.description>大口徑20x105mm重型穿甲電荷衝擊砲。其電荷砲彈在相當遠的射界內可造成裝甲穿透與大量傷害。但其鎗管在使用後必鬚繙新。</SS_Weapon_20mmChargeBlasterTurret_Gun.description>
+
+
+</LanguageData>
