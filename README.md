@@ -4,11 +4,11 @@
 </p>
 
 <p align="right">
-  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-Gun_Misc/releases">
-    <img src="https://img.shields.io/badge/-latest%20release-gray?style=for-the-badge&logo=github">
+  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-MeleeWeapons_Misc">
+    <img src="https://img.shields.io/badge/-Github%20Latest%20release-gray?style=for-the-badge&logo=github">
   </a>
   <a href="mailto:youngturksfree@outlook.com">
-    <img src="https://img.shields.io/badge/-Email%20me-blue?style=for-the-badge&logo=mail">
+    <img src="https://img.shields.io/badge/-Email%20us-blue?style=for-the-badge&logo=mail">
   </a>
 </p>
 
@@ -138,7 +138,7 @@
 ## FuturePlans:
  - (Backlog) Charge SawedoffShotgun
  - (Backlog) SawedoffShotgun made with Plasteel and carbon fiber
- - (Backlog) MorePowderLoaded/TechEnhancedPowder UraniumFlechette Ammo + Longer barrel Shotgun (12RHA)
+ - (Backlog) MorePowderLoaded/TechEnhancedPowder UraniumFlechette/Dart Ammo + Longer barrel Shotgun (12RHA)
  - (Backlog) Benelli Xrail (23 round semi-auto shotgun)
  - (Backlog) Type 79 mini RocketLauncher (1.7kg, as small as a bottle of water, 150RHA?(at least 100RHA in 65° angle), 60m maximum effective range ,M72LAW is 165m) (Improvise, Cheap, Flexible) (70mm caliber)
 

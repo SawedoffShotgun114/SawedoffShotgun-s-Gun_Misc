@@ -3,14 +3,15 @@
   <h1 align="right">SawedoffShot's Gun_Misc</h1>
 </p>
 
-<p align="right">
-  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-Gun_Misc/releases">
-    <img src="https://img.shields.io/badge/-最新版本%20Github发布页-gray?style=for-the-badge&logo=github">
-  </a>
-  <a href="mailto:youngturksfree@outlook.com">
-    <img src="https://img.shields.io/badge/-电邮%20联系作者-blue?style=for-the-badge&logo=mail">
-  </a>
-</p>
+<p align="right">  
+  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-(Placeholder)/releases">  
+    <img src="https://img.shields.io/badge/-Github发布页(获取最新版本)-gray?style=for-the-badge&logo=github">  
+  </a>  
+  <a href="mailto:youngturksfree@outlook.com">  
+    <img src="https://img.shields.io/badge/-电邮联系我们-blue?style=for-the-badge&logo=mail">  
+  </a>  
+</p>  
+
 
 
 # 免责声明
@@ -87,9 +88,9 @@
  作者玩CE玩的，可能不够熟悉原版环境
 
 ## 多语言:
- - English
- - ChineseSimplified
- - ChineseTraditional
+ - English    
+ - ChineseSimplified    
+ - ChineseTraditional    
 
 ## FAQ: (常见问题解答)
  Q1: CE compatible?/兼容CE吗?
