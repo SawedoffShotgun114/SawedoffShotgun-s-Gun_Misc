@@ -4,7 +4,7 @@
 </p>
 
 <p align="right">
-  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-MeleeWeapons_Misc">
+  <a href="https://github.com/AlohaOe114/SawedoffShotgun-s-Gun_Misc/releases">
     <img src="https://img.shields.io/badge/-Github%20Latest%20release-gray?style=for-the-badge&logo=github">
   </a>
   <a href="mailto:youngturksfree@outlook.com">
@@ -14,8 +14,9 @@
 
 
 # Another languages of README:(Please Click hyperlinks below)
- - [点此可阅读中文版README(简介)](README_zh-Hans.md)
-
+ - [点此可阅读简体中文版README(简介)](README_zh-Hans.md)    
+ - [點此可閱讀繁體中文版README(簡介)](README_zh-Hant.md)    
+ 
 # Disclaimer
  - This mod is only a clumsy work made in rush. It is compiled based on the author’s personal experience and memory, and there may be omissions, inadequacies, or even errors.    
  - The author of this article is not responsible for any consequences caused by self-operation without reading this Introduction documents(README.md) first.    
