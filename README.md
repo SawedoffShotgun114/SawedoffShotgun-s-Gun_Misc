@@ -102,7 +102,7 @@
  A1: CE compatible! And some interesting features or things are only made for CE version.(Idw whether it have fully Vanilla Compatible one day)
 
  Q2: All Texture issues including but not limited to: "Texture style Non-conformant", "Ugly", "Why just use vanilla MechTurret's base as 20mmChargeBlasterTurret's base?", etc.    
- A2: I may draw/optimize Textures later... but now I wanna to stretch 114 hours into 514 hours.    
+ A2: The author may draw/optimize Textures later... but now He just wanna stretch 464 hours into 889 hours.    
  
  Q3: In CE, Why EMPGenerator can reload without ammos?    
  A3: Yep, the author intentionally made that feature.    
